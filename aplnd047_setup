@@ -1,0 +1,792 @@
+aplnd047 | SUCCESS => {
+    "ansible_facts": {
+        "ansible_all_ipv4_addresses": [
+            "105.160.65.47"
+        ], 
+        "ansible_all_ipv6_addresses": [
+            "fe80::ec4:7aff:feb5:8d44"
+        ], 
+        "ansible_architecture": "x86_64", 
+        "ansible_bios_date": "01/27/2016", 
+        "ansible_bios_version": "2.0a", 
+        "ansible_bond0": {
+            "active": false, 
+            "device": "bond0", 
+            "lacp_rate": "slow", 
+            "macaddress": "56:07:89:5e:00:d7", 
+            "miimon": "0", 
+            "mode": "balance-rr", 
+            "mtu": 1500, 
+            "promisc": false, 
+            "slaves": [], 
+            "type": "bonding"
+        }, 
+        "ansible_cmdline": {
+            "BOOTIF": "01-0c-c4-7a-b5-8d-44", 
+            "BOOT_IMAGE": "images/Baseline/vmlinuz", 
+            "initrd": "images/Baseline/initrd", 
+            "ip": "105.160.65.47:105.160.64.170:105.160.64.1:255.255.254.0", 
+            "rdblacklist": "nouveau"
+        }, 
+        "ansible_date_time": {
+            "date": "2016-07-27", 
+            "day": "27", 
+            "epoch": "1469652019", 
+            "hour": "13", 
+            "iso8601": "2016-07-27T20:40:19Z", 
+            "iso8601_basic": "20160727T134019255059", 
+            "iso8601_basic_short": "20160727T134019", 
+            "iso8601_micro": "2016-07-27T20:40:19.255251Z", 
+            "minute": "40", 
+            "month": "07", 
+            "second": "19", 
+            "time": "13:40:19", 
+            "tz": "PDT", 
+            "tz_offset": "-0700", 
+            "weekday": "Wednesday", 
+            "weekday_number": "3", 
+            "weeknumber": "30", 
+            "year": "2016"
+        }, 
+        "ansible_default_ipv4": {
+            "address": "105.160.65.47", 
+            "alias": "eth2", 
+            "broadcast": "105.160.65.255", 
+            "gateway": "105.160.64.1", 
+            "interface": "eth2", 
+            "macaddress": "0c:c4:7a:b5:8d:44", 
+            "mtu": 1500, 
+            "netmask": "255.255.254.0", 
+            "network": "105.160.64.0", 
+            "type": "ether"
+        }, 
+        "ansible_default_ipv6": {}, 
+        "ansible_devices": {
+            "sda": {
+                "holders": [], 
+                "host": "SATA controller: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode] (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sda1": {
+                        "holders": [], 
+                        "sectors": "268435456", 
+                        "sectorsize": 512, 
+                        "size": "128.00 GB", 
+                        "start": "4096"
+                    }, 
+                    "sda2": {
+                        "holders": [], 
+                        "sectors": "708331568", 
+                        "sectorsize": 512, 
+                        "size": "337.76 GB", 
+                        "start": "268441600"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "sas_address": null, 
+                "sas_device_handle": null, 
+                "scheduler_mode": "cfq", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }, 
+            "sdb": {
+                "holders": [], 
+                "host": "SATA controller: Intel Corporation C610/X99 series chipset 6-Port SATA Controller [AHCI mode] (rev 05)", 
+                "model": "ST9500620NS", 
+                "partitions": {
+                    "sdb1": {
+                        "holders": [], 
+                        "sectors": "268435456", 
+                        "sectorsize": 512, 
+                        "size": "128.00 GB", 
+                        "start": "4096"
+                    }, 
+                    "sdb2": {
+                        "holders": [], 
+                        "sectors": "708331568", 
+                        "sectorsize": 512, 
+                        "size": "337.76 GB", 
+                        "start": "268441600"
+                    }
+                }, 
+                "removable": "0", 
+                "rotational": "1", 
+                "sas_address": null, 
+                "sas_device_handle": null, 
+                "scheduler_mode": "cfq", 
+                "sectors": "976773168", 
+                "sectorsize": "512", 
+                "size": "465.76 GB", 
+                "support_discard": "0", 
+                "vendor": "ATA"
+            }
+        }, 
+        "ansible_distribution": "RedHat", 
+        "ansible_distribution_major_version": "6", 
+        "ansible_distribution_release": "Santiago", 
+        "ansible_distribution_version": "6.7", 
+        "ansible_dns": {
+            "nameservers": [
+                "105.144.21.146", 
+                "105.160.64.38", 
+                "105.160.64.170"
+            ], 
+            "search": [
+                "sisa.samsung.com"
+            ]
+        }, 
+        "ansible_domain": "sisa.samsung.com", 
+        "ansible_env": {
+            "APL_EXT_LIBS": "/home/apps/apl/extern/tools/../../extern/libs", 
+            "APL_EXT_TOOLS": "/home/apps/apl/extern/tools/../../extern/tools", 
+            "APL_ROOT": "/home/apps/apl/extern/tools/../..", 
+            "BASH_FUNC_module()": "() {  eval `/cm/local/apps/environment-modules/3.2.10/Modules/$MODULE_VERSION/bin/modulecmd bash $*`\n}", 
+            "BINARY_TYPE_HPC": "", 
+            "BOOST": "/home/apps/apl/extern/tools/../../extern/tools/linux/x64/boost_1_55_0/gcc-4.8.2", 
+            "CVS_RSH": "ssh", 
+            "DC_RELEASE": "K-2015.06-SP4", 
+            "ESCHER_APPS_ROOT": "/home/apps", 
+            "ESCHER_BIN": "prod", 
+            "ESCHER_CONF": "prod", 
+            "ESCHER_DK_ROOT": "/home/tech", 
+            "ESCHER_FLOWCFG": "prod", 
+            "ESCHER_GRID": "lsf", 
+            "ESCHER_GROUP": "OTHER", 
+            "ESCHER_HW_SIM_RELEASE": "hw/sim/current", 
+            "ESCHER_LOCAL_SCRATCH": "/scratch", 
+            "ESCHER_OS_USER_BIN": "/home/apps/os_pkg/usr/bin", 
+            "ESCHER_P4_BIN": "/home/apps/perforce/2014/bin", 
+            "ESCHER_PAL_SCRATCH": "/palscratch", 
+            "ESCHER_PROJ_ROOT": "/mntdir/proj", 
+            "ESCHER_PYTHONLIB": "prod", 
+            "ESCHER_RELEASE_ROOT": "/mntdir/release", 
+            "ESCHER_RELEASE_VERSION": "current", 
+            "ESCHER_ROOT": "/home/escher-de/conf/prod/../..", 
+            "ESCHER_SA": "prod", 
+            "ESCHER_SCM": "perforce", 
+            "ESCHER_SCRATCH": "/scratch", 
+            "ESCHER_SITE": "SJ", 
+            "ESCHER_TCL": "prod", 
+            "ESCHER_USER_SCRATCH": "/userscratch", 
+            "ESCHER_YML": "prod", 
+            "GCC_PATH": "/home/apps/apl/extern/tools/../../extern/tools/linux/x64/gcc/4.8", 
+            "G_BROKEN_FILENAMES": "1", 
+            "HOME": "/home/rakhee.k", 
+            "JAVA_VALUE": "jre-1.8.0_92", 
+            "LANG": "en_US.UTF-8", 
+            "LD_LIBRARY_PATH": "/home/apps/apl/extern/tools/../../extern/tools/linux/x64/gcc/4.8/lib64:/home/apps/apl/extern/tools/../../extern/tools/linux/x64/gcc/4.8/lib:/home/apps/apl/extern/tools/../../extern/tools/linux/x64/boost_1_55_0/gcc-4.8.2/lib:/usr/local/lib64:/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/lib:/appdata/rtda/2016.03/linux64/lib", 
+            "LD_LIBRARY_PATH_64": "/home/apps/apl/extern/tools/../../extern/tools/linux/x64/gcc/4.8/lib64:/home/apps/apl/extern/tools/../../extern/tools/linux/x64/gcc/4.8/lib:/home/apps/apl/extern/tools/../../extern/tools/linux/x64/boost_1_55_0/gcc-4.8.2/lib:/usr/local/lib64:/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/lib:/appdata/rtda/2016.03/linux64/lib", 
+            "LESSOPEN": "||/usr/bin/lesspipe.sh %s", 
+            "LOADEDMODULES": "", 
+            "LOGNAME": "rakhee.k", 
+            "LSF_BINDIR": "/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/bin", 
+            "LSF_ENVDIR": "/appdata/lsf/conf", 
+            "LSF_LIBDIR": "/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/lib", 
+            "LSF_SERVERDIR": "/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/etc", 
+            "MAIL": "/var/mail/rakhee.k", 
+            "MANPATH": "/usr/local/share/man:/usr/share/man/overrides:/usr/share/man/en:/usr/share/man:/cm/local/apps/environment-modules/current/share/man:/appdata/rtda/2016.03/linux64/man:", 
+            "MDX_WS_SERVER": "aplmetstor1:8080", 
+            "MODULEPATH": "/cm/local/modulefiles:/cm/shared/modulefiles", 
+            "MODULESHOME": "/cm/local/apps/environment-modules/3.2.10/Modules/3.2.10", 
+            "MODULE_VERSION": "3.2.10", 
+            "MODULE_VERSION_STACK": "3.2.10", 
+            "MW_REFERENCE_LIB_DIR": "/home/DK/SS28LPP/PRIMITIVE/sec120102_0043_SS28LPP_Normal_9tr_LLP_LVT_Normal_9tracks_+4nm_LLP_BE_Astro_N/Astro/LDB", 
+            "NC_LOGDIR": "/userscratch/logs/nclogs/rakhee.k", 
+            "NXGRD_ROOT": "/home/DK/SS28LPP/TECH/STAR/LN28LPP_StarRC_Cell_V1.1.0.1_SEC1.5.1.0/tcad", 
+            "P4CONFIG": ".p4config", 
+            "P4ENVPATH": "/home/apps/apl/extern/tools/../../..", 
+            "P4PORT": "aplp4:2001", 
+            "PATH": "/home/apps/sun/java/jre-1.8.0_92/bin:/home/apps/python_org/2.7.6/bin:/home/apps/python_org/3.4.3/bin:/home/apps/perforce/2014/bin:/home/escher-de/conf/prod/../../bin/prod:/home/escher-de/conf/prod/../../sa/prod:/home/apps/os_pkg/usr/bin:/home/apps/apl/extern/tools/../../extern/libs/Cython-0.20.1/bin:/home/apps/apl/extern/tools/../../extern/tools/linux/x64/gcc/4.8/bin:/usr/lib64/qt-3.3/bin:/appdata/rtda/2016.03/linux64/local/scripts:/appdata/rtda/2016.03/linux64/bin:/appdata/rtda/2016.03/linux64/scripts:/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/etc:/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/bin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/3.2.10/bin:/opt/puppetlabs/bin:/home/apps/warpstor/current/bin", 
+            "PT_RELEASE": "H-2012.12", 
+            "PWD": "/home/rakhee.k", 
+            "PYTHONPATH": "/home/apps/apl/extern/tools/../../extern/libs/Cython-0.20.1:/home/escher-de/conf/prod/../../pythonlib/prod", 
+            "PYTHON_VALUE": "2.7.6", 
+            "QTDIR": "/usr/lib64/qt-3.3", 
+            "QTINC": "/usr/lib64/qt-3.3/include", 
+            "QTLIB": "/usr/lib64/qt-3.3/lib", 
+            "RLM_LICENSE": "/appdata/rtda/2016.03/common/local/rtda.lic", 
+            "SHELL": "/bin/bash", 
+            "SHLVL": "2", 
+            "SS28LPP": "/home/DK/SS28LPP/PRIMITIVE/sec120605_0081_SS28LPP_Normal_9tr_LLP_LVT_Normal_9tracks_+4nm_LLP_FE_Common_N/Common/All/sec/ss28lpp/sc9_base_llp_lvt/sv1p2p7/verilog/", 
+            "SS28LPP_LIBPATH": "/home/DK/SS28LPP/PRIMITIVE/sec120605_0081_SS28LPP_Normal_9tr_LLP_LVT_Normal_9tracks_+4nm_LLP_FE_Common_N/Common/All/sec/ss28lpp/synopsys", 
+            "SS28LPP_PATH": "/home/DK/SS28LPP/PRIMITIVE/sec120605_0081_SS28LPP_Normal_9tr_LLP_LVT_Normal_9tracks_+4nm_LLP_FE_Common_N/Common/All/sec/ss28lpp", 
+            "SSH_ASKPASS": "/usr/libexec/openssh/gnome-ssh-askpass", 
+            "SSH_CLIENT": "105.160.64.120 52752 22", 
+            "SSH_CONNECTION": "105.160.64.120 52752 105.160.65.47 22", 
+            "SYNOPSYS_DC_DW_LIB": "/home/apps/synop/dc/K-2015.06-SP4/libraries/syn/dw_foundation.sldb", 
+            "SYNOPSYS_DC_MP_LIB": "/home/apps/synop/dc/K-2015.06-SP4/minpower/syn/dw_minpower.sldb", 
+            "SYNOPSYS_VC_DW_LIB": "/home/apps/synop/dc/K-2015.06-SP4/dw/sim_ver", 
+            "TECHLIB_PATH": "/home/DK", 
+            "TK_TABLE_LIBRARY": "/appdata/rtda/2016.03/linux64/tcl/Tktable", 
+            "TLUPLUS_PATH": "/home/DK/SS28LPP/TECH", 
+            "TLUPLUS_ROOT": "/home/DK/SS28LPP/TECH/LN28LPP_ICC_tech_r0p0-01alp0_V1.1.4", 
+            "USER": "rakhee.k", 
+            "VOVARCH": "linux64", 
+            "VOVDIR": "/appdata/rtda/2016.03/linux64", 
+            "VOV_USE_VEP": "1", 
+            "VTCL_LIBRARY": "/appdata/rtda/2016.03/linux64/tcl", 
+            "VTIX_LIBRARY": "/appdata/rtda/2016.03/linux64/tcl/tix", 
+            "VTK_LIBRARY": "/appdata/rtda/2016.03/linux64/tcl/tk", 
+            "_": "/usr/bin/python"
+        }, 
+        "ansible_eth0": {
+            "active": false, 
+            "device": "eth0", 
+            "macaddress": "0c:c4:7a:5f:ae:09", 
+            "module": "mlx4_core", 
+            "mtu": 1500, 
+            "pciid": "0000:01:00.0", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_eth1": {
+            "active": false, 
+            "device": "eth1", 
+            "macaddress": "0c:c4:7a:5f:ae:0a", 
+            "module": "mlx4_core", 
+            "mtu": 1500, 
+            "pciid": "0000:01:00.0", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_eth2": {
+            "active": true, 
+            "device": "eth2", 
+            "ipv4": {
+                "address": "105.160.65.47", 
+                "broadcast": "105.160.65.255", 
+                "netmask": "255.255.254.0", 
+                "network": "105.160.64.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "fe80::ec4:7aff:feb5:8d44", 
+                    "prefix": "64", 
+                    "scope": "link"
+                }
+            ], 
+            "macaddress": "0c:c4:7a:b5:8d:44", 
+            "module": "igb", 
+            "mtu": 1500, 
+            "pciid": "0000:04:00.0", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_eth3": {
+            "active": false, 
+            "device": "eth3", 
+            "macaddress": "0c:c4:7a:b5:8d:45", 
+            "module": "igb", 
+            "mtu": 1500, 
+            "pciid": "0000:04:00.1", 
+            "promisc": false, 
+            "type": "ether"
+        }, 
+        "ansible_fips": false, 
+        "ansible_form_factor": "Other", 
+        "ansible_fqdn": "aplnd047.sisa.samsung.com", 
+        "ansible_gather_subset": [
+            "hardware", 
+            "network", 
+            "virtual"
+        ], 
+        "ansible_hostname": "aplnd047", 
+        "ansible_interfaces": [
+            "bond0", 
+            "lo", 
+            "eth3", 
+            "eth2", 
+            "eth1", 
+            "eth0"
+        ], 
+        "ansible_kernel": "2.6.32-573.el6.x86_64", 
+        "ansible_lo": {
+            "active": true, 
+            "device": "lo", 
+            "ipv4": {
+                "address": "127.0.0.1", 
+                "broadcast": "host", 
+                "netmask": "255.0.0.0", 
+                "network": "127.0.0.0"
+            }, 
+            "ipv6": [
+                {
+                    "address": "::1", 
+                    "prefix": "128", 
+                    "scope": "host"
+                }
+            ], 
+            "mtu": 65536, 
+            "promisc": false, 
+            "type": "loopback"
+        }, 
+        "ansible_lsb": {
+            "codename": "Santiago", 
+            "description": "Red Hat Enterprise Linux Server release 6.7 (Santiago)", 
+            "id": "RedHatEnterpriseServer", 
+            "major_release": "6", 
+            "release": "6.7"
+        }, 
+        "ansible_machine": "x86_64", 
+        "ansible_machine_id": "f3b1d95516b589d8e455844800000017", 
+        "ansible_memfree_mb": 9730, 
+        "ansible_memory_mb": {
+            "nocache": {
+                "free": 61901, 
+                "used": 2547
+            }, 
+            "real": {
+                "free": 9730, 
+                "total": 64448, 
+                "used": 54718
+            }, 
+            "swap": {
+                "cached": 1, 
+                "free": 130919, 
+                "total": 130943, 
+                "used": 24
+            }
+        }, 
+        "ansible_memtotal_mb": 64448, 
+        "ansible_mounts": [
+            {
+                "device": "/dev/md1", 
+                "fstype": "ext4", 
+                "mount": "/", 
+                "options": "rw,noatime,nodiratime", 
+                "size_available": 333858029568, 
+                "size_total": 356839108608, 
+                "uuid": ""
+            }, 
+            {
+                "device": "105.160.64.63:/cluster_shared_2/shared", 
+                "fstype": "nfs", 
+                "mount": "/cm/shared", 
+                "options": "rw,bg,hard,rsize=32768,wsize=32768,intr,nfsvers=3,addr=105.160.64.63", 
+                "size_available": 101578604544, 
+                "size_total": 107374182400, 
+                "uuid": "NA"
+            }, 
+            {
+                "device": "105.160.64.63:/appdata", 
+                "fstype": "nfs", 
+                "mount": "/appdata", 
+                "options": "rw,hard,rsize=32768,wsize=32768,intr,nfsvers=3,sloppy,addr=105.160.64.63", 
+                "size_available": 1972959150080, 
+                "size_total": 4489744089088, 
+                "uuid": "NA"
+            }, 
+            {
+                "device": "105.160.64.63:/home", 
+                "fstype": "nfs", 
+                "mount": "/home", 
+                "options": "rw,hard,rsize=32768,wsize=32768,intr,nfsvers=3,sloppy,addr=105.160.64.63", 
+                "size_available": 2580914372608, 
+                "size_total": 9582501560320, 
+                "uuid": "NA"
+            }, 
+            {
+                "device": "105.160.64.64:/mntdir", 
+                "fstype": "nfs", 
+                "mount": "/mntdir", 
+                "options": "rw,hard,rsize=32768,wsize=32768,intr,nfsvers=3,sloppy,addr=105.160.64.64", 
+                "size_available": 6847544033280, 
+                "size_total": 33954293481472, 
+                "uuid": "NA"
+            }, 
+            {
+                "device": "105.160.64.62:/userscratch", 
+                "fstype": "nfs", 
+                "mount": "/userscratch", 
+                "options": "rw,hard,rsize=32768,wsize=32768,intr,nfsvers=3,sloppy,addr=105.160.64.62", 
+                "size_available": 853311488, 
+                "size_total": 1020067840, 
+                "uuid": "NA"
+            }, 
+            {
+                "device": "105.160.64.63:/work", 
+                "fstype": "nfs", 
+                "mount": "/work", 
+                "options": "rw,hard,rsize=32768,wsize=32768,intr,nfsvers=3,sloppy,addr=105.160.64.63", 
+                "size_available": 101711872, 
+                "size_total": 104857600, 
+                "uuid": "NA"
+            }, 
+            {
+                "device": "105.160.64.63:/ec_test", 
+                "fstype": "nfs", 
+                "mount": "/ec_test", 
+                "options": "rw,hard,rsize=32768,wsize=32768,intr,nfsvers=3,sloppy,addr=105.160.64.63", 
+                "size_available": 2149502451712, 
+                "size_total": 4398046511104, 
+                "uuid": "NA"
+            }
+        ], 
+        "ansible_nodename": "aplnd047", 
+        "ansible_os_family": "RedHat", 
+        "ansible_pkg_mgr": "yum", 
+        "ansible_processor": [
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+            "GenuineIntel", 
+            "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz"
+        ], 
+        "ansible_processor_cores": 8, 
+        "ansible_processor_count": 2, 
+        "ansible_processor_threads_per_core": 1, 
+        "ansible_processor_vcpus": 16, 
+        "ansible_product_name": "SBI-7228R-T2X", 
+        "ansible_product_serial": "NA", 
+        "ansible_product_uuid": "NA", 
+        "ansible_product_version": "123456789", 
+        "ansible_python": {
+            "executable": "/usr/bin/python", 
+            "has_sslcontext": false, 
+            "type": "CPython", 
+            "version": {
+                "major": 2, 
+                "micro": 6, 
+                "minor": 6, 
+                "releaselevel": "final", 
+                "serial": 0
+            }, 
+            "version_info": [
+                2, 
+                6, 
+                6, 
+                "final", 
+                0
+            ]
+        }, 
+        "ansible_python_version": "2.6.6", 
+        "ansible_selinux": {
+            "status": "disabled"
+        }, 
+        "ansible_service_mgr": "upstart", 
+        "ansible_ssh_host_key_dsa_public": "AAAAB3NzaC1kc3MAAACBAPUOj8IoBv7qjxJgG/CeJNUbBbxjChG621JIKqggkskHkFMErvLt3UlyGk8R6vXLxYeIzE77EYTA2Kp99tAQGfg4dYwMq+9/glM8dElxEOp222h2tR3MTds/RguTs+Adv2rQ2uMszKdxxSTMO46+JCXX6PyP/jJnW0ZO4lrZbyCdAAAAFQDK7qW50Ot9d3/xusI0cCmks7Ru3QAAAIBGjHF3s40JyVI1nVtTphZB8J4OQ3ypI7Jti71myZ3e0pVqO9gn0FI88VjsKSjmgwcIDFbXPc+yZQBPZE4Xo7YNt5nFPMEBrVQBDPP/KPCNcVwP/ZESCT4pK27m5SGxav46OjEn9mYfNtkdtzCziNc6YWT02ip8Sqov7E1tSfGA8QAAAIAw1DIRWLOoHjCUYm51JJU7kgBRAi81skoh7k5qyBwpdp6/jmRIrzgPAleU/mKsjzhK7UDuDx8+2+cmo8Vcx3Gaw5aq/1e0rF+qdXEoHCxWN4c6WMwpy3A0dZzv3meO4/vIaSfU+m0DpuKfU9Yickaqa2vwrxOzAJJvOitcGWavzQ==", 
+        "ansible_ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAABIwAAAQEAxsQyhSsHogjhEXRGmZrMFE40dlUSNn23RG2PwEd+NauWZSGrV3JjT1DHi++CCwX1osItBsjxYugua1tIvjGpCydXOnIUVUtKi8UC8on0X2FT57/D0SUWkKXFBYtkw42iaLwx23F8qbs/O4gbmdXSUktNTj4S8/rayLfvlZ/vW5djFlGCJ3n5J/nTA4ourGEeYDmvo/43ndgX1EUL3hUQ8twbVDGFPxUmHra/cJQJuAZpmymF+5TGmPDlfN3rW75QHbz2TP+59avpm3M703f4+o/mKXRAGnktCkmm520VviTScnCAIN1fLhup9XHjH2dIWe12kvA3w8BchzN++a+yEQ==", 
+        "ansible_swapfree_mb": 130919, 
+        "ansible_swaptotal_mb": 130943, 
+        "ansible_system": "Linux", 
+        "ansible_system_capabilities": [
+            ""
+        ], 
+        "ansible_system_capabilities_enforced": "True", 
+        "ansible_system_vendor": "Supermicro", 
+        "ansible_uptime_seconds": 7578229, 
+        "ansible_user_dir": "/home/rakhee.k", 
+        "ansible_user_gecos": "", 
+        "ansible_user_gid": 1005, 
+        "ansible_user_id": "rakhee.k", 
+        "ansible_user_shell": "/bin/bash", 
+        "ansible_user_uid": 1063, 
+        "ansible_userspace_architecture": "x86_64", 
+        "ansible_userspace_bits": "64", 
+        "ansible_virtualization_role": "NA", 
+        "ansible_virtualization_type": "NA", 
+        "facter_augeas": {
+            "version": "1.4.0"
+        }, 
+        "facter_disks": {
+            "sda": {
+                "model": "ST9500620NS", 
+                "size": "465.76 GiB", 
+                "size_bytes": 500107862016, 
+                "vendor": "ATA"
+            }, 
+            "sdb": {
+                "model": "ST9500620NS", 
+                "size": "465.76 GiB", 
+                "size_bytes": 500107862016, 
+                "vendor": "ATA"
+            }
+        }, 
+        "facter_dmi": {
+            "bios": {
+                "release_date": "01/27/2016", 
+                "vendor": "American Megatrends Inc.", 
+                "version": "2.0a"
+            }, 
+            "board": {
+                "asset_tag": "Default string", 
+                "manufacturer": "Supermicro", 
+                "product": "B10DRT-TP"
+            }, 
+            "chassis": {
+                "asset_tag": "Default string", 
+                "type": "Other"
+            }, 
+            "manufacturer": "Supermicro", 
+            "product": {
+                "name": "SBI-7228R-T2X"
+            }
+        }, 
+        "facter_facterversion": "3.1.5", 
+        "facter_filesystems": "ext2,ext3,ext4,iso9660,xfs", 
+        "facter_identity": {
+            "gid": 1005, 
+            "group": "APL", 
+            "uid": 1063, 
+            "user": "rakhee.k"
+        }, 
+        "facter_is_virtual": false, 
+        "facter_kernel": "Linux", 
+        "facter_kernelmajversion": "2.6", 
+        "facter_kernelrelease": "2.6.32-573.el6.x86_64", 
+        "facter_kernelversion": "2.6.32", 
+        "facter_load_averages": {
+            "15m": 1.3300000000000001, 
+            "1m": 2.48, 
+            "5m": 1.6799999999999999
+        }, 
+        "facter_memory": {
+            "swap": {
+                "available": "127.85 GiB", 
+                "available_bytes": 137279471616, 
+                "capacity": "0.02%", 
+                "total": "127.87 GiB", 
+                "total_bytes": 137304731648, 
+                "used": "24.09 MiB", 
+                "used_bytes": 25260032
+            }, 
+            "system": {
+                "available": "60.43 GiB", 
+                "available_bytes": 64885387264, 
+                "capacity": "3.99%", 
+                "total": "62.94 GiB", 
+                "total_bytes": 67579527168, 
+                "used": "2.51 GiB", 
+                "used_bytes": 2694139904
+            }
+        }, 
+        "facter_mountpoints": {
+            "/": {
+                "available": "327.82 GiB", 
+                "available_bytes": 351991312384, 
+                "capacity": "1.36%", 
+                "device": "/dev/md1", 
+                "filesystem": "ext4", 
+                "options": [
+                    "rw", 
+                    "noatime", 
+                    "nodiratime"
+                ], 
+                "size": "332.33 GiB", 
+                "size_bytes": 356839108608, 
+                "used": "4.51 GiB", 
+                "used_bytes": 4847796224
+            }
+        }, 
+        "facter_networking": {
+            "domain": "sisa.samsung.com", 
+            "fqdn": "aplnd047.sisa.samsung.com", 
+            "hostname": "aplnd047", 
+            "interfaces": {
+                "bond0": {
+                    "mac": "56:07:89:5e:00:d7", 
+                    "mtu": 1500
+                }, 
+                "eth0": {
+                    "mac": "0c:c4:7a:5f:ae:09", 
+                    "mtu": 1500
+                }, 
+                "eth1": {
+                    "mac": "0c:c4:7a:5f:ae:0a", 
+                    "mtu": 1500
+                }, 
+                "eth2": {
+                    "bindings": [
+                        {
+                            "address": "105.160.65.47", 
+                            "netmask": "255.255.254.0", 
+                            "network": "105.160.64.0"
+                        }
+                    ], 
+                    "bindings6": [
+                        {
+                            "address": "fe80::ec4:7aff:feb5:8d44", 
+                            "netmask": "ffff:ffff:ffff:ffff::", 
+                            "network": "fe80::"
+                        }
+                    ], 
+                    "ip": "105.160.65.47", 
+                    "ip6": "fe80::ec4:7aff:feb5:8d44", 
+                    "mac": "0c:c4:7a:b5:8d:44", 
+                    "mtu": 1500, 
+                    "netmask": "255.255.254.0", 
+                    "netmask6": "ffff:ffff:ffff:ffff::", 
+                    "network": "105.160.64.0", 
+                    "network6": "fe80::"
+                }, 
+                "eth3": {
+                    "mac": "0c:c4:7a:b5:8d:45", 
+                    "mtu": 1500
+                }, 
+                "lo": {
+                    "bindings": [
+                        {
+                            "address": "127.0.0.1", 
+                            "netmask": "255.0.0.0", 
+                            "network": "127.0.0.0"
+                        }
+                    ], 
+                    "bindings6": [
+                        {
+                            "address": "::1", 
+                            "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff", 
+                            "network": "::1"
+                        }
+                    ], 
+                    "ip": "127.0.0.1", 
+                    "ip6": "::1", 
+                    "mtu": 65536, 
+                    "netmask": "255.0.0.0", 
+                    "netmask6": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff", 
+                    "network": "127.0.0.0", 
+                    "network6": "::1"
+                }
+            }, 
+            "ip": "105.160.65.47", 
+            "ip6": "fe80::ec4:7aff:feb5:8d44", 
+            "mac": "0c:c4:7a:b5:8d:44", 
+            "mtu": 1500, 
+            "netmask": "255.255.254.0", 
+            "netmask6": "ffff:ffff:ffff:ffff::", 
+            "network": "105.160.64.0", 
+            "network6": "fe80::", 
+            "primary": "eth2"
+        }, 
+        "facter_os": {
+            "architecture": "x86_64", 
+            "distro": {
+                "codename": "Santiago", 
+                "description": "Red Hat Enterprise Linux Server release 6.7 (Santiago)", 
+                "id": "RedHatEnterpriseServer", 
+                "release": {
+                    "full": "6.7", 
+                    "major": "6", 
+                    "minor": "7"
+                }, 
+                "specification": ":base-4.0-amd64:base-4.0-noarch:core-4.0-amd64:core-4.0-noarch:graphics-4.0-amd64:graphics-4.0-noarch:printing-4.0-amd64:printing-4.0-noarch"
+            }, 
+            "family": "RedHat", 
+            "hardware": "x86_64", 
+            "name": "RedHat", 
+            "release": {
+                "full": "6.7", 
+                "major": "6", 
+                "minor": "7"
+            }, 
+            "selinux": {
+                "enabled": false
+            }
+        }, 
+        "facter_partitions": {
+            "/dev/sda1": {
+                "size": "128.00 GiB", 
+                "size_bytes": 137438953472
+            }, 
+            "/dev/sda2": {
+                "size": "337.76 GiB", 
+                "size_bytes": 362665762816
+            }, 
+            "/dev/sdb1": {
+                "size": "128.00 GiB", 
+                "size_bytes": 137438953472
+            }, 
+            "/dev/sdb2": {
+                "size": "337.76 GiB", 
+                "size_bytes": 362665762816
+            }
+        }, 
+        "facter_path": "/home/apps/sun/java/jre-1.8.0_92/bin:/home/apps/python_org/2.7.6/bin:/home/apps/python_org/3.4.3/bin:/home/apps/perforce/2014/bin:/home/escher-de/conf/prod/../../bin/prod:/home/escher-de/conf/prod/../../sa/prod:/home/apps/os_pkg/usr/bin:/home/apps/apl/extern/tools/../../extern/libs/Cython-0.20.1/bin:/home/apps/apl/extern/tools/../../extern/tools/linux/x64/gcc/4.8/bin:/usr/lib64/qt-3.3/bin:/appdata/rtda/2016.03/linux64/local/scripts:/appdata/rtda/2016.03/linux64/bin:/appdata/rtda/2016.03/linux64/scripts:/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/etc:/appdata/lsf/9.1/linux2.6-glibc2.3-x86_64/bin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/cm/local/apps/environment-modules/3.2.10/bin:/opt/puppetlabs/bin:/home/apps/warpstor/current/bin", 
+        "facter_processors": {
+            "count": 16, 
+            "isa": "x86_64", 
+            "models": [
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz", 
+                "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz"
+            ], 
+            "physicalcount": 2, 
+            "speed": "2.40 GHz"
+        }, 
+        "facter_puppetversion": "4.4.1", 
+        "facter_ruby": {
+            "platform": "x86_64-linux", 
+            "sitedir": "/opt/puppetlabs/puppet/lib/ruby/site_ruby/2.1.0", 
+            "version": "2.1.8"
+        }, 
+        "facter_ssh": {
+            "dsa": {
+                "fingerprints": {
+                    "sha1": "SSHFP 2 1 788002e0a6e36997f33443b0ac445da574e231a1", 
+                    "sha256": "SSHFP 2 2 f594f45f2a8a3563af518cb0b2f3be3ed1209332484cac43f1750cf0e0b33eb1"
+                }, 
+                "key": "AAAAB3NzaC1kc3MAAACBAPUOj8IoBv7qjxJgG/CeJNUbBbxjChG621JIKqggkskHkFMErvLt3UlyGk8R6vXLxYeIzE77EYTA2Kp99tAQGfg4dYwMq+9/glM8dElxEOp222h2tR3MTds/RguTs+Adv2rQ2uMszKdxxSTMO46+JCXX6PyP/jJnW0ZO4lrZbyCdAAAAFQDK7qW50Ot9d3/xusI0cCmks7Ru3QAAAIBGjHF3s40JyVI1nVtTphZB8J4OQ3ypI7Jti71myZ3e0pVqO9gn0FI88VjsKSjmgwcIDFbXPc+yZQBPZE4Xo7YNt5nFPMEBrVQBDPP/KPCNcVwP/ZESCT4pK27m5SGxav46OjEn9mYfNtkdtzCziNc6YWT02ip8Sqov7E1tSfGA8QAAAIAw1DIRWLOoHjCUYm51JJU7kgBRAi81skoh7k5qyBwpdp6/jmRIrzgPAleU/mKsjzhK7UDuDx8+2+cmo8Vcx3Gaw5aq/1e0rF+qdXEoHCxWN4c6WMwpy3A0dZzv3meO4/vIaSfU+m0DpuKfU9Yickaqa2vwrxOzAJJvOitcGWavzQ=="
+            }, 
+            "rsa": {
+                "fingerprints": {
+                    "sha1": "SSHFP 1 1 73e769512565da787c2244cf574d21363da2314b", 
+                    "sha256": "SSHFP 1 2 5e5b405392a93a2378b9af3dc25d9a99a9c75248bc17592e08a78cb053b39583"
+                }, 
+                "key": "AAAAB3NzaC1yc2EAAAABIwAAAQEAxsQyhSsHogjhEXRGmZrMFE40dlUSNn23RG2PwEd+NauWZSGrV3JjT1DHi++CCwX1osItBsjxYugua1tIvjGpCydXOnIUVUtKi8UC8on0X2FT57/D0SUWkKXFBYtkw42iaLwx23F8qbs/O4gbmdXSUktNTj4S8/rayLfvlZ/vW5djFlGCJ3n5J/nTA4ourGEeYDmvo/43ndgX1EUL3hUQ8twbVDGFPxUmHra/cJQJuAZpmymF+5TGmPDlfN3rW75QHbz2TP+59avpm3M703f4+o/mKXRAGnktCkmm520VviTScnCAIN1fLhup9XHjH2dIWe12kvA3w8BchzN++a+yEQ=="
+            }
+        }, 
+        "facter_system_uptime": {
+            "days": 87, 
+            "hours": 2105, 
+            "seconds": 7578230, 
+            "uptime": "87 days"
+        }, 
+        "facter_timezone": "PDT", 
+        "facter_virtual": "physical", 
+        "module_setup": true
+    }, 
+    "changed": false
+}

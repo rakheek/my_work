@@ -1,0 +1,9 @@
+---
+  - hosts: lsf_servers
+     - name: test
+       command: "{{ item }}"
+       with items:
+         - echo $hostname
+         - date
+#  - shell: date "+%T" 
+

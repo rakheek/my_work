@@ -1,0 +1,6 @@
+#!/bin/bash
+
+host=$1
+
+cur_time=`date "+%T"`
+echo "$host has $cur_time"

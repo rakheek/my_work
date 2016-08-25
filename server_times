@@ -1,0 +1,1523 @@
+
+PLAY [lsf_servers] *************************************************************
+
+TASK [setup] *******************************************************************
+Tuesday 26 July 2016  16:05:23 -0700 (0:00:00.328)       0:00:00.328 ********** 
+ok: [aplnd044]
+ok: [aplnd043]
+ok: [aplnd056]
+ok: [aplnd058]
+ok: [aplnd046]
+ok: [aplnd041]
+ok: [aplnd078]
+ok: [aplnd075]
+ok: [aplnd053]
+ok: [aplnd048]
+ok: [aplnd052]
+ok: [aplnd051]
+ok: [aplnd057]
+ok: [aplnd050]
+ok: [aplnd049]
+ok: [aplnd055]
+ok: [aplnd054]
+ok: [aplnd065]
+ok: [aplnd061]
+ok: [aplnd064]
+ok: [aplnd047]
+ok: [aplnd063]
+ok: [aplnd066]
+ok: [aplnd069]
+ok: [aplnd059]
+ok: [aplnd127]
+ok: [aplnd068]
+ok: [aplnd060]
+ok: [aplnd071]
+ok: [aplnd070]
+ok: [aplnd093]
+ok: [aplnd062]
+ok: [aplnd082]
+ok: [aplnd090]
+ok: [aplnd074]
+ok: [aplnd115]
+ok: [aplnd072]
+ok: [aplnd103]
+ok: [aplnd088]
+ok: [aplnd097]
+ok: [aplnd114]
+ok: [aplnd119]
+ok: [aplnd067]
+ok: [aplnd077]
+ok: [aplnd079]
+ok: [aplnd080]
+ok: [aplnd081]
+ok: [aplnd084]
+ok: [aplnd095]
+ok: [aplnd098]
+ok: [aplnd101]
+ok: [aplnd102]
+ok: [aplnd104]
+ok: [aplnd105]
+ok: [aplnd107]
+ok: [aplnd117]
+ok: [aplnd118]
+ok: [aplnd123]
+ok: [aplnd089]
+ok: [aplnd096]
+ok: [aplnd110]
+ok: [aplnd120]
+ok: [aplnd155]
+ok: [aplnd160]
+ok: [aplnd131]
+ok: [aplnd094]
+ok: [aplnd144]
+ok: [aplnd083]
+ok: [aplnd129]
+ok: [aplnd132]
+ok: [aplnd152]
+ok: [aplnd092]
+ok: [aplnd108]
+ok: [aplnd139]
+ok: [aplnd100]
+ok: [aplnd121]
+ok: [aplnd085]
+ok: [aplnd133]
+ok: [aplnd087]
+ok: [aplnd154]
+ok: [aplnd146]
+ok: [aplnd151]
+ok: [aplnd091]
+ok: [aplnd111]
+ok: [aplnd153]
+ok: [aplnd148]
+ok: [aplnd112]
+ok: [aplnd109]
+ok: [aplnd113]
+ok: [aplnd143]
+ok: [aplnd106]
+ok: [aplnd137]
+ok: [aplnd116]
+ok: [aplnd136]
+ok: [aplnd142]
+ok: [aplnd157]
+ok: [aplnd147]
+ok: [aplnd156]
+ok: [aplnd126]
+ok: [aplnd158]
+ok: [aplnd042]
+ok: [aplnd159]
+ok: [aplnd134]
+ok: [aplnd124]
+ok: [aplnd086]
+ok: [aplnd138]
+ok: [aplnd149]
+ok: [aplnd145]
+ok: [aplnd140]
+ok: [aplnd128]
+ok: [aplnd130]
+ok: [aplnd122]
+ok: [aplnd125]
+ok: [aplnd150]
+ok: [aplnd076]
+ok: [aplnd141]
+
+TASK [Time script] *************************************************************
+Tuesday 26 July 2016  16:05:50 -0700 (0:00:27.587)       0:00:27.916 ********** 
+changed: [aplnd041]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd041
+
+start: 2016-07-26 16:06:40.798544
+
+end: 2016-07-26 16:06:40.810198
+
+delta: 0:00:00.011654
+
+stdout: aplnd041 has 16:06:40
+changed: [aplnd043]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd043
+
+start: 2016-07-26 16:06:40.915177
+
+end: 2016-07-26 16:06:40.926136
+
+delta: 0:00:00.010959
+
+stdout: aplnd043 has 16:06:40
+changed: [aplnd050]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd050
+
+start: 2016-07-26 16:06:40.914692
+
+end: 2016-07-26 16:06:40.931342
+
+delta: 0:00:00.016650
+
+stdout: aplnd050 has 16:06:40
+changed: [aplnd051]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd051
+
+start: 2016-07-26 16:06:40.934804
+
+end: 2016-07-26 16:06:40.950731
+
+delta: 0:00:00.015927
+
+stdout: aplnd051 has 16:06:40
+changed: [aplnd046]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd046
+
+start: 2016-07-26 16:06:40.929597
+
+end: 2016-07-26 16:06:40.941313
+
+delta: 0:00:00.011716
+
+stdout: aplnd046 has 16:06:40
+changed: [aplnd048]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd048
+
+start: 2016-07-26 16:06:40.949115
+
+end: 2016-07-26 16:06:40.959279
+
+delta: 0:00:00.010164
+
+stdout: aplnd048 has 16:06:40
+changed: [aplnd044]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd044
+
+start: 2016-07-26 16:06:40.931170
+
+end: 2016-07-26 16:06:40.946554
+
+delta: 0:00:00.015384
+
+stdout: aplnd044 has 16:06:40
+changed: [aplnd049]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd049
+
+start: 2016-07-26 16:06:40.949080
+
+end: 2016-07-26 16:06:40.965774
+
+delta: 0:00:00.016694
+
+stdout: aplnd049 has 16:06:40
+changed: [aplnd056]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd056
+
+start: 2016-07-26 16:06:40.965295
+
+end: 2016-07-26 16:06:40.981720
+
+delta: 0:00:00.016425
+
+stdout: aplnd056 has 16:06:40
+changed: [aplnd052]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd052
+
+start: 2016-07-26 16:06:40.969580
+
+end: 2016-07-26 16:06:40.979894
+
+delta: 0:00:00.010314
+
+stdout: aplnd052 has 16:06:40
+changed: [aplnd053]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd053
+
+start: 2016-07-26 16:06:40.973688
+
+end: 2016-07-26 16:06:40.992508
+
+delta: 0:00:00.018820
+
+stdout: aplnd053 has 16:06:40
+changed: [aplnd055]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd055
+
+start: 2016-07-26 16:06:40.976607
+
+end: 2016-07-26 16:06:40.992799
+
+delta: 0:00:00.016192
+
+stdout: aplnd055 has 16:06:40
+changed: [aplnd054]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd054
+
+start: 2016-07-26 16:06:41.028645
+
+end: 2016-07-26 16:06:41.039737
+
+delta: 0:00:00.011092
+
+stdout: aplnd054 has 16:06:41
+changed: [aplnd057]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd057
+
+start: 2016-07-26 16:06:41.039314
+
+end: 2016-07-26 16:06:41.054305
+
+delta: 0:00:00.014991
+
+stdout: aplnd057 has 16:06:41
+changed: [aplnd058]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd058
+
+start: 2016-07-26 16:06:41.091095
+
+end: 2016-07-26 16:06:41.102980
+
+delta: 0:00:00.011885
+
+stdout: aplnd058 has 16:06:41
+changed: [aplnd060]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd060
+
+start: 2016-07-26 16:06:41.121324
+
+end: 2016-07-26 16:06:41.131698
+
+delta: 0:00:00.010374
+
+stdout: aplnd060 has 16:06:41
+changed: [aplnd059]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd059
+
+start: 2016-07-26 16:06:41.102485
+
+end: 2016-07-26 16:06:41.122472
+
+delta: 0:00:00.019987
+
+stdout: aplnd059 has 16:06:41
+changed: [aplnd042]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd042
+
+start: 2016-07-26 16:06:41.083014
+
+end: 2016-07-26 16:06:41.104875
+
+delta: 0:00:00.021861
+
+stdout: aplnd042 has 16:06:41
+changed: [aplnd047]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd047
+
+start: 2016-07-26 16:06:41.183509
+
+end: 2016-07-26 16:06:41.204307
+
+delta: 0:00:00.020798
+
+stdout: aplnd047 has 16:06:41
+changed: [aplnd062]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd062
+
+start: 2016-07-26 16:06:41.267905
+
+end: 2016-07-26 16:06:41.277024
+
+delta: 0:00:00.009119
+
+stdout: aplnd062 has 16:06:41
+changed: [aplnd061]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd061
+
+start: 2016-07-26 16:06:41.288465
+
+end: 2016-07-26 16:06:41.306234
+
+delta: 0:00:00.017769
+
+stdout: aplnd061 has 16:06:41
+changed: [aplnd063]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd063
+
+start: 2016-07-26 16:06:41.314184
+
+end: 2016-07-26 16:06:41.324839
+
+delta: 0:00:00.010655
+
+stdout: aplnd063 has 16:06:41
+changed: [aplnd064]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd064
+
+start: 2016-07-26 16:06:41.342017
+
+end: 2016-07-26 16:06:41.358034
+
+delta: 0:00:00.016017
+
+stdout: aplnd064 has 16:06:41
+changed: [aplnd065]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd065
+
+start: 2016-07-26 16:06:41.356700
+
+end: 2016-07-26 16:06:41.372789
+
+delta: 0:00:00.016089
+
+stdout: aplnd065 has 16:06:41
+changed: [aplnd066]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd066
+
+start: 2016-07-26 16:06:41.409440
+
+end: 2016-07-26 16:06:41.424118
+
+delta: 0:00:00.014678
+
+stdout: aplnd066 has 16:06:41
+changed: [aplnd068]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd068
+
+start: 2016-07-26 16:06:41.451281
+
+end: 2016-07-26 16:06:41.465269
+
+delta: 0:00:00.013988
+
+stdout: aplnd068 has 16:06:41
+changed: [aplnd067]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd067
+
+start: 2016-07-26 16:06:41.459739
+
+end: 2016-07-26 16:06:41.472284
+
+delta: 0:00:00.012545
+
+stdout: aplnd067 has 16:06:41
+changed: [aplnd069]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd069
+
+start: 2016-07-26 16:06:41.506602
+
+end: 2016-07-26 16:06:41.519531
+
+delta: 0:00:00.012929
+
+stdout: aplnd069 has 16:06:41
+changed: [aplnd070]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd070
+
+start: 2016-07-26 16:06:41.580115
+
+end: 2016-07-26 16:06:41.593123
+
+delta: 0:00:00.013008
+
+stdout: aplnd070 has 16:06:41
+changed: [aplnd071]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd071
+
+start: 2016-07-26 16:06:41.611088
+
+end: 2016-07-26 16:06:41.623798
+
+delta: 0:00:00.012710
+
+stdout: aplnd071 has 16:06:41
+changed: [aplnd072]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd072
+
+start: 2016-07-26 16:06:41.653897
+
+end: 2016-07-26 16:06:41.664734
+
+delta: 0:00:00.010837
+
+stdout: aplnd072 has 16:06:41
+changed: [aplnd074]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd074
+
+start: 2016-07-26 16:06:41.658162
+
+end: 2016-07-26 16:06:41.671028
+
+delta: 0:00:00.012866
+
+stdout: aplnd074 has 16:06:41
+changed: [aplnd077]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd077
+
+start: 2016-07-26 16:06:41.694063
+
+end: 2016-07-26 16:06:41.710662
+
+delta: 0:00:00.016599
+
+stdout: aplnd077 has 16:06:41
+changed: [aplnd075]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd075
+
+start: 2016-07-26 16:06:41.718906
+
+end: 2016-07-26 16:06:41.734687
+
+delta: 0:00:00.015781
+
+stdout: aplnd075 has 16:06:41
+changed: [aplnd078]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd078
+
+start: 2016-07-26 16:06:41.827602
+
+end: 2016-07-26 16:06:41.843591
+
+delta: 0:00:00.015989
+
+stdout: aplnd078 has 16:06:41
+changed: [aplnd079]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd079
+
+start: 2016-07-26 16:06:41.831961
+
+end: 2016-07-26 16:06:41.848004
+
+delta: 0:00:00.016043
+
+stdout: aplnd079 has 16:06:41
+changed: [aplnd081]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd081
+
+start: 2016-07-26 16:06:41.881471
+
+end: 2016-07-26 16:06:41.891525
+
+delta: 0:00:00.010054
+
+stdout: aplnd081 has 16:06:41
+changed: [aplnd082]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd082
+
+start: 2016-07-26 16:06:41.880926
+
+end: 2016-07-26 16:06:41.896506
+
+delta: 0:00:00.015580
+
+stdout: aplnd082 has 16:06:41
+changed: [aplnd080]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd080
+
+start: 2016-07-26 16:06:41.907384
+
+end: 2016-07-26 16:06:41.923630
+
+delta: 0:00:00.016246
+
+stdout: aplnd080 has 16:06:41
+changed: [aplnd085]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd085
+
+start: 2016-07-26 16:06:41.991890
+
+end: 2016-07-26 16:06:42.003893
+
+delta: 0:00:00.012003
+
+stdout: aplnd085 has 16:06:42
+changed: [aplnd083]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd083
+
+start: 2016-07-26 16:06:42.015766
+
+end: 2016-07-26 16:06:42.026106
+
+delta: 0:00:00.010340
+
+stdout: aplnd083 has 16:06:42
+changed: [aplnd084]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd084
+
+start: 2016-07-26 16:06:42.021575
+
+end: 2016-07-26 16:06:42.031538
+
+delta: 0:00:00.009963
+
+stdout: aplnd084 has 16:06:42
+changed: [aplnd087]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd087
+
+start: 2016-07-26 16:06:42.114738
+
+end: 2016-07-26 16:06:42.130271
+
+delta: 0:00:00.015533
+
+stdout: aplnd087 has 16:06:42
+changed: [aplnd088]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd088
+
+start: 2016-07-26 16:06:42.151756
+
+end: 2016-07-26 16:06:42.169050
+
+delta: 0:00:00.017294
+
+stdout: aplnd088 has 16:06:42
+changed: [aplnd091]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd091
+
+start: 2016-07-26 16:06:42.199991
+
+end: 2016-07-26 16:06:42.209708
+
+delta: 0:00:00.009717
+
+stdout: aplnd091 has 16:06:42
+changed: [aplnd089]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd089
+
+start: 2016-07-26 16:06:42.192618
+
+end: 2016-07-26 16:06:42.204449
+
+delta: 0:00:00.011831
+
+stdout: aplnd089 has 16:06:42
+changed: [aplnd090]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd090
+
+start: 2016-07-26 16:06:42.276325
+
+end: 2016-07-26 16:06:42.287563
+
+delta: 0:00:00.011238
+
+stdout: aplnd090 has 16:06:42
+changed: [aplnd092]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd092
+
+start: 2016-07-26 16:06:42.286792
+
+end: 2016-07-26 16:06:42.297521
+
+delta: 0:00:00.010729
+
+stdout: aplnd092 has 16:06:42
+changed: [aplnd095]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd095
+
+start: 2016-07-26 16:06:42.403398
+
+end: 2016-07-26 16:06:42.416691
+
+delta: 0:00:00.013293
+
+stdout: aplnd095 has 16:06:42
+changed: [aplnd093]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd093
+
+start: 2016-07-26 16:06:42.466724
+
+end: 2016-07-26 16:06:42.478987
+
+delta: 0:00:00.012263
+
+stdout: aplnd093 has 16:06:42
+changed: [aplnd094]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd094
+
+start: 2016-07-26 16:06:42.480970
+
+end: 2016-07-26 16:06:42.492072
+
+delta: 0:00:00.011102
+
+stdout: aplnd094 has 16:06:42
+changed: [aplnd097]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd097
+
+start: 2016-07-26 16:06:42.503467
+
+end: 2016-07-26 16:06:42.518926
+
+delta: 0:00:00.015459
+
+stdout: aplnd097 has 16:06:42
+changed: [aplnd096]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd096
+
+start: 2016-07-26 16:06:42.490179
+
+end: 2016-07-26 16:06:42.508136
+
+delta: 0:00:00.017957
+
+stdout: aplnd096 has 16:06:42
+changed: [aplnd086]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd086
+
+start: 2016-07-26 16:06:42.520535
+
+end: 2016-07-26 16:06:42.530439
+
+delta: 0:00:00.009904
+
+stdout: aplnd086 has 16:06:42
+changed: [aplnd100]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd100
+
+start: 2016-07-26 16:06:42.527254
+
+end: 2016-07-26 16:06:42.540581
+
+delta: 0:00:00.013327
+
+stdout: aplnd100 has 16:06:42
+changed: [aplnd098]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd098
+
+start: 2016-07-26 16:06:42.532757
+
+end: 2016-07-26 16:06:42.546756
+
+delta: 0:00:00.013999
+
+stdout: aplnd098 has 16:06:42
+changed: [aplnd102]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd102
+
+start: 2016-07-26 16:06:42.602876
+
+end: 2016-07-26 16:06:42.614697
+
+delta: 0:00:00.011821
+
+stdout: aplnd102 has 16:06:42
+changed: [aplnd101]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd101
+
+start: 2016-07-26 16:06:42.630905
+
+end: 2016-07-26 16:06:42.641671
+
+delta: 0:00:00.010766
+
+stdout: aplnd101 has 16:06:42
+changed: [aplnd103]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd103
+
+start: 2016-07-26 16:06:42.707083
+
+end: 2016-07-26 16:06:42.719644
+
+delta: 0:00:00.012561
+
+stdout: aplnd103 has 16:06:42
+changed: [aplnd104]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd104
+
+start: 2016-07-26 16:06:42.765128
+
+end: 2016-07-26 16:06:42.776338
+
+delta: 0:00:00.011210
+
+stdout: aplnd104 has 16:06:42
+changed: [aplnd107]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd107
+
+start: 2016-07-26 16:06:42.791938
+
+end: 2016-07-26 16:06:42.811833
+
+delta: 0:00:00.019895
+
+stdout: aplnd107 has 16:06:42
+changed: [aplnd108]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd108
+
+start: 2016-07-26 16:06:42.801455
+
+end: 2016-07-26 16:06:42.821927
+
+delta: 0:00:00.020472
+
+stdout: aplnd108 has 16:06:42
+changed: [aplnd105]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd105
+
+start: 2016-07-26 16:06:42.807537
+
+end: 2016-07-26 16:06:42.824871
+
+delta: 0:00:00.017334
+
+stdout: aplnd105 has 16:06:42
+changed: [aplnd106]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd106
+
+start: 2016-07-26 16:06:42.810392
+
+end: 2016-07-26 16:06:42.827121
+
+delta: 0:00:00.016729
+
+stdout: aplnd106 has 16:06:42
+changed: [aplnd110]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd110
+
+start: 2016-07-26 16:06:42.963851
+
+end: 2016-07-26 16:06:42.976289
+
+delta: 0:00:00.012438
+
+stdout: aplnd110 has 16:06:42
+changed: [aplnd109]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd109
+
+start: 2016-07-26 16:06:43.010657
+
+end: 2016-07-26 16:06:43.023974
+
+delta: 0:00:00.013317
+
+stdout: aplnd109 has 16:06:43
+changed: [aplnd111]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd111
+
+start: 2016-07-26 16:06:43.020809
+
+end: 2016-07-26 16:06:43.036261
+
+delta: 0:00:00.015452
+
+stdout: aplnd111 has 16:06:43
+changed: [aplnd112]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd112
+
+start: 2016-07-26 16:06:43.109321
+
+end: 2016-07-26 16:06:43.127124
+
+delta: 0:00:00.017803
+
+stdout: aplnd112 has 16:06:43
+changed: [aplnd113]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd113
+
+start: 2016-07-26 16:06:43.120163
+
+end: 2016-07-26 16:06:43.131077
+
+delta: 0:00:00.010914
+
+stdout: aplnd113 has 16:06:43
+changed: [aplnd115]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd115
+
+start: 2016-07-26 16:06:43.153740
+
+end: 2016-07-26 16:06:43.169336
+
+delta: 0:00:00.015596
+
+stdout: aplnd115 has 16:06:43
+changed: [aplnd114]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd114
+
+start: 2016-07-26 16:06:43.196112
+
+end: 2016-07-26 16:06:43.212051
+
+delta: 0:00:00.015939
+
+stdout: aplnd114 has 16:06:43
+changed: [aplnd119]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd119
+
+start: 2016-07-26 16:06:43.267040
+
+end: 2016-07-26 16:06:43.283011
+
+delta: 0:00:00.015971
+
+stdout: aplnd119 has 16:06:43
+changed: [aplnd117]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd117
+
+start: 2016-07-26 16:06:43.259599
+
+end: 2016-07-26 16:06:43.283842
+
+delta: 0:00:00.024243
+
+stdout: aplnd117 has 16:06:43
+changed: [aplnd116]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd116
+
+start: 2016-07-26 16:06:43.268056
+
+end: 2016-07-26 16:06:43.289297
+
+delta: 0:00:00.021241
+
+stdout: aplnd116 has 16:06:43
+changed: [aplnd118]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd118
+
+start: 2016-07-26 16:06:43.308559
+
+end: 2016-07-26 16:06:43.322996
+
+delta: 0:00:00.014437
+
+stdout: aplnd118 has 16:06:43
+changed: [aplnd120]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd120
+
+start: 2016-07-26 16:06:43.319071
+
+end: 2016-07-26 16:06:43.337625
+
+delta: 0:00:00.018554
+
+stdout: aplnd120 has 16:06:43
+changed: [aplnd121]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd121
+
+start: 2016-07-26 16:06:43.388368
+
+end: 2016-07-26 16:06:43.399702
+
+delta: 0:00:00.011334
+
+stdout: aplnd121 has 16:06:43
+changed: [aplnd123]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd123
+
+start: 2016-07-26 16:06:43.426158
+
+end: 2016-07-26 16:06:43.437693
+
+delta: 0:00:00.011535
+
+stdout: aplnd123 has 16:06:43
+changed: [aplnd122]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd122
+
+start: 2016-07-26 16:06:43.430594
+
+end: 2016-07-26 16:06:43.447932
+
+delta: 0:00:00.017338
+
+stdout: aplnd122 has 16:06:43
+changed: [aplnd124]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd124
+
+start: 2016-07-26 16:06:43.489166
+
+end: 2016-07-26 16:06:43.510383
+
+delta: 0:00:00.021217
+
+stdout: aplnd124 has 16:06:43
+changed: [aplnd127]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd127
+
+start: 2016-07-26 16:06:43.570793
+
+end: 2016-07-26 16:06:43.589456
+
+delta: 0:00:00.018663
+
+stdout: aplnd127 has 16:06:43
+changed: [aplnd125]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd125
+
+start: 2016-07-26 16:06:43.586055
+
+end: 2016-07-26 16:06:43.602472
+
+delta: 0:00:00.016417
+
+stdout: aplnd125 has 16:06:43
+changed: [aplnd126]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd126
+
+start: 2016-07-26 16:06:43.654472
+
+end: 2016-07-26 16:06:43.668693
+
+delta: 0:00:00.014221
+
+stdout: aplnd126 has 16:06:43
+changed: [aplnd128]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd128
+
+start: 2016-07-26 16:06:43.653228
+
+end: 2016-07-26 16:06:43.668591
+
+delta: 0:00:00.015363
+
+stdout: aplnd128 has 16:06:43
+changed: [aplnd129]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd129
+
+start: 2016-07-26 16:06:43.731173
+
+end: 2016-07-26 16:06:43.751074
+
+delta: 0:00:00.019901
+
+stdout: aplnd129 has 16:06:43
+changed: [aplnd131]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd131
+
+start: 2016-07-26 16:06:43.740303
+
+end: 2016-07-26 16:06:43.755637
+
+delta: 0:00:00.015334
+
+stdout: aplnd131 has 16:06:43
+changed: [aplnd133]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd133
+
+start: 2016-07-26 16:06:43.814900
+
+end: 2016-07-26 16:06:43.827925
+
+delta: 0:00:00.013025
+
+stdout: aplnd133 has 16:06:43
+changed: [aplnd130]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd130
+
+start: 2016-07-26 16:06:43.804549
+
+end: 2016-07-26 16:06:43.828519
+
+delta: 0:00:00.023970
+
+stdout: aplnd130 has 16:06:43
+changed: [aplnd132]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd132
+
+start: 2016-07-26 16:06:43.859123
+
+end: 2016-07-26 16:06:43.877064
+
+delta: 0:00:00.017941
+
+stdout: aplnd132 has 16:06:43
+changed: [aplnd134]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd134
+
+start: 2016-07-26 16:06:43.915088
+
+end: 2016-07-26 16:06:43.930857
+
+delta: 0:00:00.015769
+
+stdout: aplnd134 has 16:06:43
+changed: [aplnd136]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd136
+
+start: 2016-07-26 16:06:43.965360
+
+end: 2016-07-26 16:06:43.982086
+
+delta: 0:00:00.016726
+
+stdout: aplnd136 has 16:06:43
+changed: [aplnd138]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd138
+
+start: 2016-07-26 16:06:43.973534
+
+end: 2016-07-26 16:06:43.986346
+
+delta: 0:00:00.012812
+
+stdout: aplnd138 has 16:06:43
+changed: [aplnd137]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd137
+
+start: 2016-07-26 16:06:44.010902
+
+end: 2016-07-26 16:06:44.027813
+
+delta: 0:00:00.016911
+
+stdout: aplnd137 has 16:06:44
+changed: [aplnd139]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd139
+
+start: 2016-07-26 16:06:44.071121
+
+end: 2016-07-26 16:06:44.083199
+
+delta: 0:00:00.012078
+
+stdout: aplnd139 has 16:06:44
+changed: [aplnd140]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd140
+
+start: 2016-07-26 16:06:44.091158
+
+end: 2016-07-26 16:06:44.105105
+
+delta: 0:00:00.013947
+
+stdout: aplnd140 has 16:06:44
+changed: [aplnd142]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd142
+
+start: 2016-07-26 16:06:44.158486
+
+end: 2016-07-26 16:06:44.174620
+
+delta: 0:00:00.016134
+
+stdout: aplnd142 has 16:06:44
+changed: [aplnd143]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd143
+
+start: 2016-07-26 16:06:44.223884
+
+end: 2016-07-26 16:06:44.242914
+
+delta: 0:00:00.019030
+
+stdout: aplnd143 has 16:06:44
+changed: [aplnd144]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd144
+
+start: 2016-07-26 16:06:44.313458
+
+end: 2016-07-26 16:06:44.325952
+
+delta: 0:00:00.012494
+
+stdout: aplnd144 has 16:06:44
+changed: [aplnd145]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd145
+
+start: 2016-07-26 16:06:44.316394
+
+end: 2016-07-26 16:06:44.329571
+
+delta: 0:00:00.013177
+
+stdout: aplnd145 has 16:06:44
+changed: [aplnd146]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd146
+
+start: 2016-07-26 16:06:44.345161
+
+end: 2016-07-26 16:06:44.360962
+
+delta: 0:00:00.015801
+
+stdout: aplnd146 has 16:06:44
+changed: [aplnd147]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd147
+
+start: 2016-07-26 16:06:44.397130
+
+end: 2016-07-26 16:06:44.407941
+
+delta: 0:00:00.010811
+
+stdout: aplnd147 has 16:06:44
+changed: [aplnd148]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd148
+
+start: 2016-07-26 16:06:44.442462
+
+end: 2016-07-26 16:06:44.460070
+
+delta: 0:00:00.017608
+
+stdout: aplnd148 has 16:06:44
+changed: [aplnd151]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd151
+
+start: 2016-07-26 16:06:44.469899
+
+end: 2016-07-26 16:06:44.485889
+
+delta: 0:00:00.015990
+
+stdout: aplnd151 has 16:06:44
+changed: [aplnd152]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd152
+
+start: 2016-07-26 16:06:44.490876
+
+end: 2016-07-26 16:06:44.513344
+
+delta: 0:00:00.022468
+
+stdout: aplnd152 has 16:06:44
+changed: [aplnd153]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd153
+
+start: 2016-07-26 16:06:44.598697
+
+end: 2016-07-26 16:06:44.611007
+
+delta: 0:00:00.012310
+
+stdout: aplnd153 has 16:06:44
+changed: [aplnd155]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd155
+
+start: 2016-07-26 16:06:44.617006
+
+end: 2016-07-26 16:06:44.632757
+
+delta: 0:00:00.015751
+
+stdout: aplnd155 has 16:06:44
+changed: [aplnd149]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd149
+
+start: 2016-07-26 16:06:44.610501
+
+end: 2016-07-26 16:06:44.633053
+
+delta: 0:00:00.022552
+
+stdout: aplnd149 has 16:06:44
+changed: [aplnd157]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd157
+
+start: 2016-07-26 16:06:44.642910
+
+end: 2016-07-26 16:06:44.654291
+
+delta: 0:00:00.011381
+
+stdout: aplnd157 has 16:06:44
+changed: [aplnd154]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd154
+
+start: 2016-07-26 16:06:44.642744
+
+end: 2016-07-26 16:06:44.658857
+
+delta: 0:00:00.016113
+
+stdout: aplnd154 has 16:06:44
+changed: [aplnd159]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd159
+
+start: 2016-07-26 16:06:44.672900
+
+end: 2016-07-26 16:06:44.687153
+
+delta: 0:00:00.014253
+
+stdout: aplnd159 has 16:06:44
+changed: [aplnd156]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd156
+
+start: 2016-07-26 16:06:44.694495
+
+end: 2016-07-26 16:06:44.708529
+
+delta: 0:00:00.014034
+
+stdout: aplnd156 has 16:06:44
+changed: [aplnd158]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd158
+
+start: 2016-07-26 16:06:44.693049
+
+end: 2016-07-26 16:06:44.709799
+
+delta: 0:00:00.016750
+
+stdout: aplnd158 has 16:06:44
+changed: [aplnd160]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd160
+
+start: 2016-07-26 16:06:44.711597
+
+end: 2016-07-26 16:06:44.725977
+
+delta: 0:00:00.014380
+
+stdout: aplnd160 has 16:06:44
+changed: [aplnd141]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd141
+
+start: 2016-07-26 16:06:45.875306
+
+end: 2016-07-26 16:06:45.923936
+
+delta: 0:00:00.048630
+
+stdout: aplnd141 has 16:06:45
+changed: [aplnd076]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd076
+
+start: 2016-07-26 16:06:46.890383
+
+end: 2016-07-26 16:06:47.017764
+
+delta: 0:00:00.127381
+
+stdout: aplnd076 has 16:06:47
+changed: [aplnd150]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd150
+
+start: 2016-07-26 16:06:47.328313
+
+end: 2016-07-26 16:06:47.448154
+
+delta: 0:00:00.119841
+
+stdout: aplnd150 has 16:06:47
+
+PLAY RECAP *********************************************************************
+aplnd041                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd042                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd043                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd044                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd046                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd047                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd048                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd049                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd050                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd051                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd052                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd053                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd054                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd055                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd056                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd057                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd058                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd059                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd060                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd061                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd062                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd063                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd064                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd065                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd066                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd067                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd068                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd069                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd070                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd071                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd072                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd074                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd075                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd076                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd077                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd078                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd079                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd080                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd081                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd082                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd083                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd084                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd085                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd086                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd087                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd088                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd089                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd090                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd091                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd092                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd093                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd094                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd095                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd096                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd097                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd098                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd100                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd101                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd102                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd103                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd104                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd105                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd106                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd107                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd108                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd109                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd110                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd111                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd112                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd113                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd114                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd115                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd116                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd117                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd118                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd119                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd120                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd121                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd122                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd123                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd124                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd125                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd126                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd127                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd128                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd129                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd130                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd131                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd132                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd133                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd134                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd136                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd137                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd138                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd139                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd140                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd141                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd142                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd143                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd144                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd145                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd146                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd147                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd148                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd149                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd150                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd151                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd152                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd153                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd154                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd155                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd156                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd157                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd158                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd159                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd160                   : ok=2    changed=1    unreachable=0    failed=0   
+
+Tuesday 26 July 2016  16:05:58 -0700 (0:00:08.047)       0:00:35.964 ********** 
+=============================================================================== 
+setup ------------------------------------------------------------------ 27.59s
+Time script ------------------------------------------------------------- 8.05s

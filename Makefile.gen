@@ -1,0 +1,40 @@
+# Include standard library
+MAKEFILEDIR := $(shell cd $(dir $(lastword $(MAKEFILE_LIST)));pwd)
+
+MAKEFILEDIR := $(patsubst %/,%,$(MAKEFILEDIR))
+THIS_MAKEFILE := $(lastword $(MAKEFILE_LIST))
+
+MAK_NAME := ci.mak
+
+TOOLS_DIR := $(MAKEFILEDIR)
+
+ifndef MODULES
+$(error MODULES missing)
+endif
+
+ifndef LAST_GOOD_CL
+$(error LAST_GOOD_CL missing)
+endif
+
+ifneq ($(COMMANDER_SERVER),)
+# Can't use variable for the file 
+#__include $(MAKEFILEDIR)/ec_utils1.mak
+
+else # ifneq ($(COMMANDER_SERVER),)
+
+#include $(MAKEFILEDIR)/ec_utils1.mak
+
+endif # ifneq ($(COMMANDER_SERVER),)
+
+# Load main file
+# $(call set_p4_vars) is a must, otherwise the p4 will fail on EC!!!
+# Pass debug parame if any
+#
+foo :=$(shell $(subst //,/,rm -f $(MAKEFILEDIR)/$(MAK_NAME);set -x;$(MAKEFILEDIR)/ini2make2.pl --noarbitrate --input $(MAKEFILEDIR)/ci.ini --output $(MAKEFILEDIR)/$(MAK_NAME) --modules '$(MODULES)' --top CI --last_good_cl $(LAST_GOOD_CL)$(if $(BUILD_USER), --build_user $(BUILD_USER))$(if $(SKIP_APL), --skip_apl);chmod 777 $(MAKEFILEDIR)/$(MAK_NAME)))
+
+ifneq ($(strip $(foo)),)
+$(error Failed to generate make code: <$(foo)>)
+endif
+
+include $(MAKEFILEDIR)/$(MAK_NAME)
+

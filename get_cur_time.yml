@@ -1,0 +1,15 @@
+---
+- hosts: lsf_servers
+
+  tasks:
+  - name: Time script 
+    command: /home/rakhee.k/my_git/get_time.sh {{ ansible_hostname }}
+    register: contents
+
+#  - mail:
+#          host='localhost'
+#          port=25
+#          to="rakhee <rakhee.k@samsung.com>"
+#          subject='Ansible-report {{ ansible_hostname }}'
+#          body='System {{ ansible_hostname }} has following processes {{ contents.stdout.split('\n') }}'
+#    when: contents.stdout != ""

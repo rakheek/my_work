@@ -1,0 +1,10 @@
+---
+- hosts: lsf_servers
+#  tasks:
+  - name: Get host time
+    command: "{{ item }}"
+    with items:
+       - "echo $hostname"
+       - "date "+%T""
+#  - shell: date "+%T" 
+

@@ -1,0 +1,14 @@
+---
+- hosts: eod_servers
+  tasks:
+  - name: Process script 
+    command: /home/rakhee.k/my_git/find_process.py
+    register: contents
+
+  - mail:
+          host='localhost'
+          port=25
+          to="rakhee <rakhee.k@samsung.com>, peter <peter.y@partner.samsung.com>, avatar <m.diarra@partner.samsung.com>"
+          subject='Ansible-report {{ ansible_hostname }}'
+          body='System {{ ansible_hostname }} has following processes {{ contents.stdout.split('\n') }}'
+    when: contents.stdout != ""

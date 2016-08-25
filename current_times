@@ -1,0 +1,1755 @@
+
+PLAY [lsf_servers] *************************************************************
+
+TASK [setup] *******************************************************************
+Wednesday 27 July 2016  17:20:24 -0700 (0:00:00.217)       0:00:00.217 ******** 
+ok: [aplnd043]
+ok: [aplnd041]
+ok: [aplnd046]
+ok: [aplnd056]
+ok: [aplnd042]
+ok: [aplnd048]
+ok: [aplnd075]
+ok: [aplnd078]
+ok: [aplnd050]
+ok: [aplnd052]
+ok: [aplnd049]
+ok: [aplnd062]
+ok: [aplnd058]
+ok: [aplnd101]
+ok: [aplnd051]
+ok: [aplnd060]
+ok: [aplnd054]
+ok: [aplnd055]
+ok: [aplnd057]
+ok: [aplnd065]
+ok: [aplnd094]
+ok: [aplnd061]
+ok: [aplnd053]
+ok: [aplnd063]
+ok: [aplnd069]
+ok: [aplnd074]
+ok: [aplnd077]
+ok: [aplnd079]
+ok: [aplnd080]
+ok: [aplnd081]
+ok: [aplnd082]
+ok: [aplnd083]
+ok: [aplnd084]
+ok: [aplnd086]
+ok: [aplnd087]
+ok: [aplnd088]
+ok: [aplnd089]
+ok: [aplnd090]
+ok: [aplnd091]
+ok: [aplnd092]
+ok: [aplnd093]
+ok: [aplnd095]
+ok: [aplnd096]
+ok: [aplnd097]
+ok: [aplnd098]
+ok: [aplnd102]
+ok: [aplnd103]
+ok: [aplnd104]
+ok: [aplnd105]
+ok: [aplnd109]
+ok: [aplnd110]
+ok: [aplnd111]
+ok: [aplnd112]
+ok: [aplnd113]
+ok: [aplnd114]
+ok: [aplnd116]
+ok: [aplnd118]
+ok: [aplnd119]
+ok: [aplnd123]
+ok: [aplnd126]
+ok: [aplnd128]
+ok: [aplnd044]
+ok: [aplnd059]
+ok: [aplnd064]
+ok: [aplnd066]
+ok: [aplnd067]
+ok: [aplnd068]
+ok: [aplnd070]
+ok: [aplnd071]
+ok: [aplnd085]
+ok: [aplnd100]
+ok: [aplnd115]
+ok: [aplnd117]
+ok: [aplnd122]
+ok: [aplnd133]
+ok: [aplnd120]
+ok: [aplnd125]
+ok: [aplnd129]
+ok: [aplnd127]
+ok: [aplnd131]
+ok: [aplnd132]
+ok: [aplnd137]
+ok: [aplnd138]
+ok: [aplnd145]
+ok: [aplnd142]
+ok: [aplnd136]
+ok: [aplnd134]
+ok: [aplnd160]
+ok: [aplnd139]
+ok: [aplnd159]
+ok: [aplnd155]
+ok: [aplnd152]
+ok: [aplnd156]
+ok: [aplnd157]
+ok: [aplnd108]
+ok: [aplnd140]
+ok: [aplnd144]
+ok: [aplnd146]
+ok: [aplnd148]
+ok: [aplnd151]
+ok: [aplnd153]
+ok: [aplnd154]
+ok: [aplnd158]
+ok: [aplnd072]
+ok: [aplnd106]
+ok: [aplnd107]
+ok: [aplnd141]
+ok: [aplnd143]
+ok: [aplnd149]
+ok: [aplnd150]
+ok: [aplnd130]
+ok: [aplnd121]
+ok: [aplnd124]
+ok: [aplnd147]
+ok: [aplnd076]
+ok: [aplnd047]
+
+TASK [Time script] *************************************************************
+Wednesday 27 July 2016  17:20:51 -0700 (0:00:27.359)       0:00:27.577 ******** 
+changed: [aplnd041]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd041
+
+start: 2016-07-27 17:21:42.777634
+
+end: 2016-07-27 17:21:42.797041
+
+delta: 0:00:00.019407
+
+stdout: aplnd041 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  442 1024  377    0.107   -5.198   1.210
+changed: [aplnd050]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd050
+
+start: 2016-07-27 17:21:42.861048
+
+end: 2016-07-27 17:21:42.874363
+
+delta: 0:00:00.013315
+
+stdout: aplnd050 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  609 1024  377    0.126   -7.092   2.552
+changed: [aplnd049]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd049
+
+start: 2016-07-27 17:21:42.850227
+
+end: 2016-07-27 17:21:42.884315
+
+delta: 0:00:00.034088
+
+stdout: aplnd049 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  868 1024  377    0.125   -5.738   3.635
+changed: [aplnd043]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd043
+
+start: 2016-07-27 17:21:42.867197
+
+end: 2016-07-27 17:21:42.902705
+
+delta: 0:00:00.035508
+
+stdout: aplnd043 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  868 1024  377    0.121   -4.420   2.336
+changed: [aplnd046]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd046
+
+start: 2016-07-27 17:21:42.872419
+
+end: 2016-07-27 17:21:42.892388
+
+delta: 0:00:00.019969
+
+stdout: aplnd046 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u 1036 1024  377    0.106   -5.122   2.043
+changed: [aplnd056]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd056
+
+start: 2016-07-27 17:21:42.885399
+
+end: 2016-07-27 17:21:42.917542
+
+delta: 0:00:00.032143
+
+stdout: aplnd056 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  297 1024  377    0.105   -4.322   2.200
+changed: [aplnd042]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd042
+
+start: 2016-07-27 17:21:42.894515
+
+end: 2016-07-27 17:21:42.912082
+
+delta: 0:00:00.017567
+
+stdout: aplnd042 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  324 1024  377    0.100   -4.619   2.500
+changed: [aplnd051]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd051
+
+start: 2016-07-27 17:21:42.904671
+
+end: 2016-07-27 17:21:42.925419
+
+delta: 0:00:00.020748
+
+stdout: aplnd051 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  466 1024  377    0.099   -4.971   2.503
+changed: [aplnd053]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd053
+
+start: 2016-07-27 17:21:42.901694
+
+end: 2016-07-27 17:21:42.927248
+
+delta: 0:00:00.025554
+
+stdout: aplnd053 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  467 1024  377    0.101   -4.796   2.596
+changed: [aplnd054]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd054
+
+start: 2016-07-27 17:21:42.910658
+
+end: 2016-07-27 17:21:42.937648
+
+delta: 0:00:00.026990
+
+stdout: aplnd054 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  314 1024  377    0.100   -5.820   2.388
+changed: [aplnd052]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd052
+
+start: 2016-07-27 17:21:42.921403
+
+end: 2016-07-27 17:21:42.944876
+
+delta: 0:00:00.023473
+
+stdout: aplnd052 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  779 1024  377    0.061   -6.679   3.922
+changed: [aplnd055]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd055
+
+start: 2016-07-27 17:21:42.931318
+
+end: 2016-07-27 17:21:42.947787
+
+delta: 0:00:00.016469
+
+stdout: aplnd055 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  211 1024  377    0.152   -6.584   2.477
+changed: [aplnd057]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd057
+
+start: 2016-07-27 17:21:42.957852
+
+end: 2016-07-27 17:21:42.973616
+
+delta: 0:00:00.015764
+
+stdout: aplnd057 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  806 1024  377    0.096   -6.118   1.970
+changed: [aplnd044]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd044
+
+start: 2016-07-27 17:21:42.954576
+
+end: 2016-07-27 17:21:42.966706
+
+delta: 0:00:00.012130
+
+stdout: aplnd044 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  204 1024  377    0.082   -4.472   1.791
+changed: [aplnd059]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd059
+
+start: 2016-07-27 17:21:42.978669
+
+end: 2016-07-27 17:21:42.991020
+
+delta: 0:00:00.012351
+
+stdout: aplnd059 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  627 1024  377    0.105   -5.543   3.016
+changed: [aplnd048]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd048
+
+start: 2016-07-27 17:21:42.960453
+
+end: 2016-07-27 17:21:42.985722
+
+delta: 0:00:00.025269
+
+stdout: aplnd048 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  341 1024  377    0.122   -5.791   2.552
+changed: [aplnd060]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd060
+
+start: 2016-07-27 17:21:42.975110
+
+end: 2016-07-27 17:21:42.992138
+
+delta: 0:00:00.017028
+
+stdout: aplnd060 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  357 1024  377    0.068   -5.703   2.057
+changed: [aplnd058]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd058
+
+start: 2016-07-27 17:21:43.000482
+
+end: 2016-07-27 17:21:43.056222
+
+delta: 0:00:00.055740
+
+stdout: aplnd058 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  957 1024  377    0.103   -5.571   2.143
+changed: [aplnd062]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd062
+
+start: 2016-07-27 17:21:43.074387
+
+end: 2016-07-27 17:21:43.100829
+
+delta: 0:00:00.026442
+
+stdout: aplnd062 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   52 1024  377    0.104   -6.683   2.457
+changed: [aplnd063]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd063
+
+start: 2016-07-27 17:21:43.124448
+
+end: 2016-07-27 17:21:43.148334
+
+delta: 0:00:00.023886
+
+stdout: aplnd063 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  189 1024  377    0.115   -6.619   3.517
+changed: [aplnd064]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd064
+
+start: 2016-07-27 17:21:43.176819
+
+end: 2016-07-27 17:21:43.206382
+
+delta: 0:00:00.029563
+
+stdout: aplnd064 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u 1062 1024  377    0.085   -4.383   1.867
+changed: [aplnd061]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd061
+
+start: 2016-07-27 17:21:43.150555
+
+end: 2016-07-27 17:21:43.204464
+
+delta: 0:00:00.053909
+
+stdout: aplnd061 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  944 1024  377    0.151   -6.086   2.587
+changed: [aplnd065]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd065
+
+start: 2016-07-27 17:21:43.247922
+
+end: 2016-07-27 17:21:43.272672
+
+delta: 0:00:00.024750
+
+stdout: aplnd065 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  998 1024  377    0.104   -5.114   2.780
+changed: [aplnd066]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd066
+
+start: 2016-07-27 17:21:43.260533
+
+end: 2016-07-27 17:21:43.297777
+
+delta: 0:00:00.037244
+
+stdout: aplnd066 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  645 1024  377    0.104   -5.581   1.493
+changed: [aplnd067]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd067
+
+start: 2016-07-27 17:21:43.326429
+
+end: 2016-07-27 17:21:43.357046
+
+delta: 0:00:00.030617
+
+stdout: aplnd067 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  205 1024  377    0.122   -6.374   3.705
+changed: [aplnd068]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd068
+
+start: 2016-07-27 17:21:43.410070
+
+end: 2016-07-27 17:21:43.436345
+
+delta: 0:00:00.026275
+
+stdout: aplnd068 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  588 1024  377    0.122   -6.233   3.100
+changed: [aplnd069]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd069
+
+start: 2016-07-27 17:21:43.419841
+
+end: 2016-07-27 17:21:43.448733
+
+delta: 0:00:00.028892
+
+stdout: aplnd069 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  505 1024  377    0.136   -6.704   2.317
+changed: [aplnd071]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd071
+
+start: 2016-07-27 17:21:43.531472
+
+end: 2016-07-27 17:21:43.567990
+
+delta: 0:00:00.036518
+
+stdout: aplnd071 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  634 1024  377    0.131   -4.542   2.863
+changed: [aplnd070]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd070
+
+start: 2016-07-27 17:21:43.542945
+
+end: 2016-07-27 17:21:43.590699
+
+delta: 0:00:00.047754
+
+stdout: aplnd070 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  323 1024  377    0.103   -5.291   3.131
+changed: [aplnd072]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd072
+
+start: 2016-07-27 17:21:43.575884
+
+end: 2016-07-27 17:21:43.618522
+
+delta: 0:00:00.042638
+
+stdout: aplnd072 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  542 1024  377    0.077   -4.717   2.713
+changed: [aplnd074]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd074
+
+start: 2016-07-27 17:21:43.556290
+
+end: 2016-07-27 17:21:43.626892
+
+delta: 0:00:00.070602
+
+stdout: aplnd074 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  992 1024  377    0.137   -4.646   2.351
+changed: [aplnd075]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd075
+
+start: 2016-07-27 17:21:43.745103
+
+end: 2016-07-27 17:21:43.772653
+
+delta: 0:00:00.027550
+
+stdout: aplnd075 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  112 1024  377    0.129   -5.806   2.208
+changed: [aplnd078]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd078
+
+start: 2016-07-27 17:21:43.780548
+
+end: 2016-07-27 17:21:43.816953
+
+delta: 0:00:00.036405
+
+stdout: aplnd078 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  532 1024  377    0.117   -6.644   3.072
+changed: [aplnd077]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd077
+
+start: 2016-07-27 17:21:43.796338
+
+end: 2016-07-27 17:21:43.866220
+
+delta: 0:00:00.069882
+
+stdout: aplnd077 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  675 1024  377    0.111   -4.607   2.016
+changed: [aplnd080]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd080
+
+start: 2016-07-27 17:21:43.844847
+
+end: 2016-07-27 17:21:43.896617
+
+delta: 0:00:00.051770
+
+stdout: aplnd080 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   55 1024  377    0.089   -4.963   2.542
+changed: [aplnd079]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd079
+
+start: 2016-07-27 17:21:43.910541
+
+end: 2016-07-27 17:21:43.978775
+
+delta: 0:00:00.068234
+
+stdout: aplnd079 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  733 1024  377    0.084   -4.972   1.419
+changed: [aplnd082]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd082
+
+start: 2016-07-27 17:21:43.979651
+
+end: 2016-07-27 17:21:44.040189
+
+delta: 0:00:00.060538
+
+stdout: aplnd082 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  682 1024  377    0.135   -3.931   2.641
+changed: [aplnd084]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd084
+
+start: 2016-07-27 17:21:43.949549
+
+end: 2016-07-27 17:21:44.065813
+
+delta: 0:00:00.116264
+
+stdout: aplnd084 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  774 1024  377    0.113   -3.587   0.847
+changed: [aplnd081]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd081
+
+start: 2016-07-27 17:21:44.064099
+
+end: 2016-07-27 17:21:44.116714
+
+delta: 0:00:00.052615
+
+stdout: aplnd081 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  374 1024  377    0.143   -6.012   2.933
+changed: [aplnd085]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd085
+
+start: 2016-07-27 17:21:44.086665
+
+end: 2016-07-27 17:21:44.114840
+
+delta: 0:00:00.028175
+
+stdout: aplnd085 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  901 1024  377    0.113   -3.504   1.479
+changed: [aplnd083]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd083
+
+start: 2016-07-27 17:21:44.056185
+
+end: 2016-07-27 17:21:44.175585
+
+delta: 0:00:00.119400
+
+stdout: aplnd083 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  984 1024  377    0.086   -6.630   1.629
+changed: [aplnd087]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd087
+
+start: 2016-07-27 17:21:44.164370
+
+end: 2016-07-27 17:21:44.208826
+
+delta: 0:00:00.044456
+
+stdout: aplnd087 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  927 1024  377    0.133   -4.693   3.050
+changed: [aplnd088]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd088
+
+start: 2016-07-27 17:21:44.229623
+
+end: 2016-07-27 17:21:44.243053
+
+delta: 0:00:00.013430
+
+stdout: aplnd088 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  875 1024  377    0.092   -4.774   1.910
+changed: [aplnd090]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd090
+
+start: 2016-07-27 17:21:44.231878
+
+end: 2016-07-27 17:21:44.254497
+
+delta: 0:00:00.022619
+
+stdout: aplnd090 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  775 1024  377    0.101   -7.154   3.309
+changed: [aplnd089]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd089
+
+start: 2016-07-27 17:21:44.237956
+
+end: 2016-07-27 17:21:44.319432
+
+delta: 0:00:00.081476
+
+stdout: aplnd089 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  458 1024  377    0.116   -4.942   2.331
+changed: [aplnd086]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd086
+
+start: 2016-07-27 17:21:44.270805
+
+end: 2016-07-27 17:21:44.345597
+
+delta: 0:00:00.074792
+
+stdout: aplnd086 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  861 1024  377    0.091   -4.408   1.389
+changed: [aplnd091]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd091
+
+start: 2016-07-27 17:21:44.292836
+
+end: 2016-07-27 17:21:44.369235
+
+delta: 0:00:00.076399
+
+stdout: aplnd091 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  803 1024  377    0.131   -5.147   1.647
+changed: [aplnd093]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd093
+
+start: 2016-07-27 17:21:44.300069
+
+end: 2016-07-27 17:21:44.385196
+
+delta: 0:00:00.085127
+
+stdout: aplnd093 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  363 1024  377    0.112   -4.870   1.941
+changed: [aplnd092]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd092
+
+start: 2016-07-27 17:21:44.349009
+
+end: 2016-07-27 17:21:44.418742
+
+delta: 0:00:00.069733
+
+stdout: aplnd092 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  324 1024  377    0.112   -4.257   2.978
+changed: [aplnd095]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd095
+
+start: 2016-07-27 17:21:44.471246
+
+end: 2016-07-27 17:21:44.535752
+
+delta: 0:00:00.064506
+
+stdout: aplnd095 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   58 1024  377    0.139   -6.635   2.436
+changed: [aplnd098]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd098
+
+start: 2016-07-27 17:21:44.527307
+
+end: 2016-07-27 17:21:44.561783
+
+delta: 0:00:00.034476
+
+stdout: aplnd098 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  771 1024  377    0.137   -4.206   1.602
+changed: [aplnd094]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd094
+
+start: 2016-07-27 17:21:44.572254
+
+end: 2016-07-27 17:21:44.594885
+
+delta: 0:00:00.022631
+
+stdout: aplnd094 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  429 1024  377    0.118   -4.460   1.193
+changed: [aplnd097]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd097
+
+start: 2016-07-27 17:21:44.551709
+
+end: 2016-07-27 17:21:44.616279
+
+delta: 0:00:00.064570
+
+stdout: aplnd097 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  449 1024  377    0.142   -3.604   0.971
+changed: [aplnd096]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd096
+
+start: 2016-07-27 17:21:44.534245
+
+end: 2016-07-27 17:21:44.647924
+
+delta: 0:00:00.113679
+
+stdout: aplnd096 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  978 1024  377    0.118   -4.331   2.193
+changed: [aplnd105]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd105
+
+start: 2016-07-27 17:21:44.633403
+
+end: 2016-07-27 17:21:44.678068
+
+delta: 0:00:00.044665
+
+stdout: aplnd105 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  465 1024  377    0.104   -5.636   3.242
+changed: [aplnd100]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd100
+
+start: 2016-07-27 17:21:44.740492
+
+end: 2016-07-27 17:21:44.772711
+
+delta: 0:00:00.032219
+
+stdout: aplnd100 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  703 1024  377    0.132   -4.877   2.113
+changed: [aplnd103]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd103
+
+start: 2016-07-27 17:21:44.678434
+
+end: 2016-07-27 17:21:44.793481
+
+delta: 0:00:00.115047
+
+stdout: aplnd103 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  482 1024  377    0.142   -3.602   2.622
+changed: [aplnd102]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd102
+
+start: 2016-07-27 17:21:44.836440
+
+end: 2016-07-27 17:21:44.854323
+
+delta: 0:00:00.017883
+
+stdout: aplnd102 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  681 1024  377    0.096   -5.301   2.549
+changed: [aplnd106]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd106
+
+start: 2016-07-27 17:21:44.761953
+
+end: 2016-07-27 17:21:44.846821
+
+delta: 0:00:00.084868
+
+stdout: aplnd106 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  143 1024  377    0.121   -5.235   3.132
+changed: [aplnd101]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd101
+
+start: 2016-07-27 17:21:44.851883
+
+end: 2016-07-27 17:21:44.895923
+
+delta: 0:00:00.044040
+
+stdout: aplnd101 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  190 1024  377    0.114   -6.102   2.919
+changed: [aplnd104]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd104
+
+start: 2016-07-27 17:21:44.839616
+
+end: 2016-07-27 17:21:44.919532
+
+delta: 0:00:00.079916
+
+stdout: aplnd104 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  492 1024  377    0.136   -5.171   1.919
+changed: [aplnd108]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd108
+
+start: 2016-07-27 17:21:44.876267
+
+end: 2016-07-27 17:21:44.946952
+
+delta: 0:00:00.070685
+
+stdout: aplnd108 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  826 1024  377    0.123   -4.524   2.589
+changed: [aplnd107]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd107
+
+start: 2016-07-27 17:21:44.907132
+
+end: 2016-07-27 17:21:44.953295
+
+delta: 0:00:00.046163
+
+stdout: aplnd107 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  302 1024  377    0.146   -4.346   2.011
+changed: [aplnd111]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd111
+
+start: 2016-07-27 17:21:44.899173
+
+end: 2016-07-27 17:21:44.964037
+
+delta: 0:00:00.064864
+
+stdout: aplnd111 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  484 1024  377    0.112   -5.409   2.771
+changed: [aplnd109]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd109
+
+start: 2016-07-27 17:21:44.977166
+
+end: 2016-07-27 17:21:44.995460
+
+delta: 0:00:00.018294
+
+stdout: aplnd109 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  169 1024  377    0.132   -4.121   2.534
+changed: [aplnd110]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd110
+
+start: 2016-07-27 17:21:45.037042
+
+end: 2016-07-27 17:21:45.065035
+
+delta: 0:00:00.027993
+
+stdout: aplnd110 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  170 1024  377    0.116   -4.101   1.520
+changed: [aplnd113]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd113
+
+start: 2016-07-27 17:21:45.099852
+
+end: 2016-07-27 17:21:45.116318
+
+delta: 0:00:00.016466
+
+stdout: aplnd113 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  503 1024  377    0.130   -6.573   3.259
+changed: [aplnd112]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd112
+
+start: 2016-07-27 17:21:45.095013
+
+end: 2016-07-27 17:21:45.109186
+
+delta: 0:00:00.014173
+
+stdout: aplnd112 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  649 1024  377    0.147   -5.332   1.453
+changed: [aplnd116]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd116
+
+start: 2016-07-27 17:21:45.200915
+
+end: 2016-07-27 17:21:45.215833
+
+delta: 0:00:00.014918
+
+stdout: aplnd116 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   15 1024  377    0.134   -4.606   1.064
+changed: [aplnd119]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd119
+
+start: 2016-07-27 17:21:45.191498
+
+end: 2016-07-27 17:21:45.211040
+
+delta: 0:00:00.019542
+
+stdout: aplnd119 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  728 1024  377    0.110   -4.223   2.917
+changed: [aplnd115]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd115
+
+start: 2016-07-27 17:21:45.178682
+
+end: 2016-07-27 17:21:45.210293
+
+delta: 0:00:00.031611
+
+stdout: aplnd115 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  328 1024  377    0.109   -5.279   2.634
+changed: [aplnd114]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd114
+
+start: 2016-07-27 17:21:45.215079
+
+end: 2016-07-27 17:21:45.227177
+
+delta: 0:00:00.012098
+
+stdout: aplnd114 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   88 1024  377    0.134   -6.211   2.637
+changed: [aplnd117]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd117
+
+start: 2016-07-27 17:21:45.232553
+
+end: 2016-07-27 17:21:45.257540
+
+delta: 0:00:00.024987
+
+stdout: aplnd117 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  683 1024  377    0.088   -5.287   3.408
+changed: [aplnd118]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd118
+
+start: 2016-07-27 17:21:45.239281
+
+end: 2016-07-27 17:21:45.253007
+
+delta: 0:00:00.013726
+
+stdout: aplnd118 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  630 1024  377    0.091   -4.930   2.346
+changed: [aplnd120]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd120
+
+start: 2016-07-27 17:21:45.272162
+
+end: 2016-07-27 17:21:45.292617
+
+delta: 0:00:00.020455
+
+stdout: aplnd120 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  368 1024  377    0.111   -5.330   1.902
+changed: [aplnd122]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd122
+
+start: 2016-07-27 17:21:45.407343
+
+end: 2016-07-27 17:21:45.436003
+
+delta: 0:00:00.028660
+
+stdout: aplnd122 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  357 1024  377    0.107   -4.034   1.694
+changed: [aplnd123]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd123
+
+start: 2016-07-27 17:21:45.446309
+
+end: 2016-07-27 17:21:45.466577
+
+delta: 0:00:00.020268
+
+stdout: aplnd123 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  193 1024  377    0.094   -6.009   2.647
+changed: [aplnd125]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd125
+
+start: 2016-07-27 17:21:45.483038
+
+end: 2016-07-27 17:21:45.517029
+
+delta: 0:00:00.033991
+
+stdout: aplnd125 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  693 1024  377    0.094   -4.610   1.832
+changed: [aplnd126]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd126
+
+start: 2016-07-27 17:21:45.486161
+
+end: 2016-07-27 17:21:45.512139
+
+delta: 0:00:00.025978
+
+stdout: aplnd126 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  892 1024  377    0.096   -4.501   1.417
+changed: [aplnd127]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd127
+
+start: 2016-07-27 17:21:45.593555
+
+end: 2016-07-27 17:21:45.614214
+
+delta: 0:00:00.020659
+
+stdout: aplnd127 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  434 1024  377    0.112   -4.948   2.402
+changed: [aplnd129]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd129
+
+start: 2016-07-27 17:21:45.602424
+
+end: 2016-07-27 17:21:45.638618
+
+delta: 0:00:00.036194
+
+stdout: aplnd129 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  555 1024  377    0.112   -3.398   1.602
+changed: [aplnd128]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd128
+
+start: 2016-07-27 17:21:45.629365
+
+end: 2016-07-27 17:21:45.650238
+
+delta: 0:00:00.020873
+
+stdout: aplnd128 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  332 1024  377    0.117   -2.839   1.254
+changed: [aplnd121]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd121
+
+start: 2016-07-27 17:21:45.606683
+
+end: 2016-07-27 17:21:45.667501
+
+delta: 0:00:00.060818
+
+stdout: aplnd121 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  185 1024  377    0.111   -4.569   1.140
+changed: [aplnd124]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd124
+
+start: 2016-07-27 17:21:45.644090
+
+end: 2016-07-27 17:21:45.678210
+
+delta: 0:00:00.034120
+
+stdout: aplnd124 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u 1026 1024  377    0.097   -3.673   1.251
+changed: [aplnd132]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd132
+
+start: 2016-07-27 17:21:45.735589
+
+end: 2016-07-27 17:21:45.751635
+
+delta: 0:00:00.016046
+
+stdout: aplnd132 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  216 1024  377    0.082   -5.555   2.405
+changed: [aplnd131]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd131
+
+start: 2016-07-27 17:21:45.745628
+
+end: 2016-07-27 17:21:45.769980
+
+delta: 0:00:00.024352
+
+stdout: aplnd131 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  259 1024  377    0.114   -4.912   2.618
+changed: [aplnd130]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd130
+
+start: 2016-07-27 17:21:45.756536
+
+end: 2016-07-27 17:21:45.792409
+
+delta: 0:00:00.035873
+
+stdout: aplnd130 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u 1061 1024  377    0.103   -5.290   2.689
+changed: [aplnd133]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd133
+
+start: 2016-07-27 17:21:45.781756
+
+end: 2016-07-27 17:21:45.815942
+
+delta: 0:00:00.034186
+
+stdout: aplnd133 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  447 1024  377    0.115   -6.102   3.102
+changed: [aplnd134]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd134
+
+start: 2016-07-27 17:21:45.781306
+
+end: 2016-07-27 17:21:45.809636
+
+delta: 0:00:00.028330
+
+stdout: aplnd134 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  322 1024  377    0.091   -4.396   0.873
+changed: [aplnd136]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd136
+
+start: 2016-07-27 17:21:45.825130
+
+end: 2016-07-27 17:21:45.839574
+
+delta: 0:00:00.014444
+
+stdout: aplnd136 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  331 1024  377    0.089   -5.144   2.878
+changed: [aplnd076]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd076
+
+start: 2016-07-27 17:21:45.791663
+
+end: 2016-07-27 17:21:45.861125
+
+delta: 0:00:00.069462
+
+stdout: aplnd076 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  984 1024  377    0.072   -5.279   2.986
+changed: [aplnd137]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd137
+
+start: 2016-07-27 17:21:45.873490
+
+end: 2016-07-27 17:21:45.898031
+
+delta: 0:00:00.024541
+
+stdout: aplnd137 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  163 1024  377    0.076   -5.095   2.598
+changed: [aplnd138]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd138
+
+start: 2016-07-27 17:21:45.885178
+
+end: 2016-07-27 17:21:45.910501
+
+delta: 0:00:00.025323
+
+stdout: aplnd138 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  207 1024  377    0.125   -5.161   2.697
+changed: [aplnd139]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd139
+
+start: 2016-07-27 17:21:45.977795
+
+end: 2016-07-27 17:21:45.993904
+
+delta: 0:00:00.016109
+
+stdout: aplnd139 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  147 1024  377    0.140   -4.478   3.087
+changed: [aplnd140]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd140
+
+start: 2016-07-27 17:21:45.997893
+
+end: 2016-07-27 17:21:46.021851
+
+delta: 0:00:00.023958
+
+stdout: aplnd140 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  358 1024  377    0.089   -3.473   2.430
+changed: [aplnd047]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd047
+
+start: 2016-07-27 17:21:45.529703
+
+end: 2016-07-27 17:21:46.018698
+
+delta: 0:00:00.488995
+
+stdout: aplnd047 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  111 1024  377    0.097   -7.466   3.158
+changed: [aplnd142]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd142
+
+start: 2016-07-27 17:21:46.095253
+
+end: 2016-07-27 17:21:46.112916
+
+delta: 0:00:00.017663
+
+stdout: aplnd142 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  246 1024  377    0.089   -4.963   3.446
+changed: [aplnd141]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd141
+
+start: 2016-07-27 17:21:46.174026
+
+end: 2016-07-27 17:21:46.185434
+
+delta: 0:00:00.011408
+
+stdout: aplnd141 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  471 1024  377    0.066   -6.313   2.761
+changed: [aplnd143]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd143
+
+start: 2016-07-27 17:21:46.174438
+
+end: 2016-07-27 17:21:46.194066
+
+delta: 0:00:00.019628
+
+stdout: aplnd143 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  649 1024  377    0.108   -5.760   2.945
+changed: [aplnd144]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd144
+
+start: 2016-07-27 17:21:46.178505
+
+end: 2016-07-27 17:21:46.196678
+
+delta: 0:00:00.018173
+
+stdout: aplnd144 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   29 1024  377    0.098   -4.440   1.812
+changed: [aplnd145]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd145
+
+start: 2016-07-27 17:21:46.232128
+
+end: 2016-07-27 17:21:46.251790
+
+delta: 0:00:00.019662
+
+stdout: aplnd145 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  813 1024  377    0.143   -6.590   3.727
+changed: [aplnd146]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd146
+
+start: 2016-07-27 17:21:46.223750
+
+end: 2016-07-27 17:21:46.251076
+
+delta: 0:00:00.027326
+
+stdout: aplnd146 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  223 1024  377    0.111   -5.341   4.212
+changed: [aplnd150]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd150
+
+start: 2016-07-27 17:21:46.348611
+
+end: 2016-07-27 17:21:46.367206
+
+delta: 0:00:00.018595
+
+stdout: aplnd150 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  335 1024  377    0.077   -5.882   2.562
+changed: [aplnd148]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd148
+
+start: 2016-07-27 17:21:46.346176
+
+end: 2016-07-27 17:21:46.371942
+
+delta: 0:00:00.025766
+
+stdout: aplnd148 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  454 1024  377    0.101   -5.764   3.871
+changed: [aplnd149]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd149
+
+start: 2016-07-27 17:21:46.433972
+
+end: 2016-07-27 17:21:46.449136
+
+delta: 0:00:00.015164
+
+stdout: aplnd149 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  899 1024  377    0.123   -5.942   3.019
+changed: [aplnd153]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd153
+
+start: 2016-07-27 17:21:46.509871
+
+end: 2016-07-27 17:21:46.522923
+
+delta: 0:00:00.013052
+
+stdout: aplnd153 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  202 1024  377    0.104   -5.858   2.790
+changed: [aplnd154]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd154
+
+start: 2016-07-27 17:21:46.486983
+
+end: 2016-07-27 17:21:46.518377
+
+delta: 0:00:00.031394
+
+stdout: aplnd154 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   66 1024  377    0.102   -5.611   2.751
+changed: [aplnd155]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd155
+
+start: 2016-07-27 17:21:46.508380
+
+end: 2016-07-27 17:21:46.539979
+
+delta: 0:00:00.031599
+
+stdout: aplnd155 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  212 1024  377    0.094   -5.144   2.515
+changed: [aplnd152]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd152
+
+start: 2016-07-27 17:21:46.502497
+
+end: 2016-07-27 17:21:46.534883
+
+delta: 0:00:00.032386
+
+stdout: aplnd152 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   84 1024  377    0.091   -5.567   2.283
+changed: [aplnd151]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd151
+
+start: 2016-07-27 17:21:46.542527
+
+end: 2016-07-27 17:21:46.560099
+
+delta: 0:00:00.017572
+
+stdout: aplnd151 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  825 1024  377    0.111   -5.668   3.335
+changed: [aplnd157]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd157
+
+start: 2016-07-27 17:21:46.579925
+
+end: 2016-07-27 17:21:46.609481
+
+delta: 0:00:00.029556
+
+stdout: aplnd157 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  547 1024  377    0.121   -5.254   2.376
+changed: [aplnd160]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd160
+
+start: 2016-07-27 17:21:46.579663
+
+end: 2016-07-27 17:21:46.608974
+
+delta: 0:00:00.029311
+
+stdout: aplnd160 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  467 1024  377    0.115   -5.122   3.073
+changed: [aplnd159]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd159
+
+start: 2016-07-27 17:21:46.592591
+
+end: 2016-07-27 17:21:46.627388
+
+delta: 0:00:00.034797
+
+stdout: aplnd159 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  453 1024  377    0.121   -7.028   3.581
+changed: [aplnd158]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd158
+
+start: 2016-07-27 17:21:46.608014
+
+end: 2016-07-27 17:21:46.639254
+
+delta: 0:00:00.031240
+
+stdout: aplnd158 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  943 1024  377    0.098   -4.734   2.498
+changed: [aplnd156]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd156
+
+start: 2016-07-27 17:21:46.619309
+
+end: 2016-07-27 17:21:46.642291
+
+delta: 0:00:00.022982
+
+stdout: aplnd156 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u  989 1024  377    0.113   -6.645   3.462
+changed: [aplnd147]
+
+cmd: /home/rakhee.k/my_git/get_time.sh aplnd147
+
+start: 2016-07-27 17:21:50.200080
+
+end: 2016-07-27 17:21:50.520072
+
+delta: 0:00:00.319992
+
+stdout: aplnd147 has      remote           refid      st t when poll reach   delay   offset  jitter
+==============================================================================
+*aplth.cm.cluste 105.144.21.96    3 u   89 1024  377    0.133   -6.080   3.553
+
+PLAY RECAP *********************************************************************
+aplnd041                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd042                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd043                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd044                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd046                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd047                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd048                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd049                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd050                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd051                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd052                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd053                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd054                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd055                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd056                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd057                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd058                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd059                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd060                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd061                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd062                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd063                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd064                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd065                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd066                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd067                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd068                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd069                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd070                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd071                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd072                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd074                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd075                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd076                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd077                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd078                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd079                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd080                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd081                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd082                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd083                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd084                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd085                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd086                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd087                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd088                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd089                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd090                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd091                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd092                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd093                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd094                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd095                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd096                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd097                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd098                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd100                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd101                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd102                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd103                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd104                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd105                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd106                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd107                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd108                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd109                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd110                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd111                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd112                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd113                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd114                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd115                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd116                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd117                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd118                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd119                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd120                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd121                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd122                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd123                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd124                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd125                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd126                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd127                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd128                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd129                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd130                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd131                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd132                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd133                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd134                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd136                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd137                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd138                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd139                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd140                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd141                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd142                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd143                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd144                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd145                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd146                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd147                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd148                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd149                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd150                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd151                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd152                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd153                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd154                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd155                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd156                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd157                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd158                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd159                   : ok=2    changed=1    unreachable=0    failed=0   
+aplnd160                   : ok=2    changed=1    unreachable=0    failed=0   
+
+Wednesday 27 July 2016  17:21:01 -0700 (0:00:09.468)       0:00:37.046 ******** 
+=============================================================================== 
+setup ------------------------------------------------------------------ 27.36s
+Time script ------------------------------------------------------------- 9.47s
